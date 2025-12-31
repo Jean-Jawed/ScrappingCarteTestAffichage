@@ -1,0 +1,1507 @@
+[
+    {
+        "nom_original": "11 Aveznue de Mazargues",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "11 avenue de Mazargues",
+        "adresse_complete": "Hôtel Mercure Marseille Centre Prado Vélodrome, 11, Avenue de Mazargues, Saint-Giniez, Marseille 8e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13008, France",
+        "latitude": 43.269637,
+        "longitude": 5.3882703,
+        "status": "OK"
+    },
+    {
+        "nom_original": "130 chemin de la Madrague Ville",
+        "adresse_complete": "La Rôtisserie des Saveurs, 130, Chemin de la Madrague Ville, Les Crottes, Marseille 15e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13015, France",
+        "latitude": 43.3271275,
+        "longitude": 5.3640577,
+        "status": "OK"
+    },
+    {
+        "nom_original": "16 Cours Joseph Thierry",
+        "adresse_complete": "16, Cours Joseph Thierry, Le Chapitre, Marseille 1er Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13001, France",
+        "latitude": 43.3001699,
+        "longitude": 5.386323,
+        "status": "OK"
+    },
+    {
+        "nom_original": "3 montée saint esprit",
+        "adresse_complete": "Théâtre du Lacydon, 3, Montée du Saint-Esprit, Hôtel de Ville, Marseille 2e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13002, France",
+        "latitude": 43.2979046,
+        "longitude": 5.3689244,
+        "status": "OK"
+    },
+    {
+        "nom_original": "31 Rue Sylvabelle",
+        "adresse_complete": "31, Rue Sylvabelle Robert de Vernejoul, Préfecture, Marseille 6e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13006, France",
+        "latitude": 43.2894273,
+        "longitude": 5.3795038,
+        "status": "OK"
+    },
+    {
+        "nom_original": "33 rue Saint Jacques",
+        "adresse_complete": "33, Rue Saint-Jacques, Préfecture, Marseille 6e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13006, France",
+        "latitude": 43.2888161,
+        "longitude": 5.3797937,
+        "status": "OK"
+    },
+    {
+        "nom_original": "48 Avenue de Saint-Just",
+        "adresse_complete": "La Grillade du Dôme, 48, Avenue de Saint-Just, Saint-Just, Marseille 13e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13013, France",
+        "latitude": 43.3175335,
+        "longitude": 5.4053925,
+        "status": "OK"
+    },
+    {
+        "nom_original": "53 rue de la Joliette",
+        "adresse_complete": "Théâtre de la Mer, 53, Rue de la Joliette, Les Grands Carmes, Marseille 2e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13002, France",
+        "latitude": 43.3026675,
+        "longitude": 5.3709539,
+        "status": "OK"
+    },
+    {
+        "nom_original": "83 avenue de la Pointe Rouge",
+        "adresse_complete": "Avenue de la Pointe Rouge, La Vieille-Chapelle, Marseille 8e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13008, France",
+        "latitude": 43.2477134,
+        "longitude": 5.3743376,
+        "status": "OK"
+    },
+    {
+        "nom_original": "9 lieux différents (Marseille & alentours)",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Abbaye Saint-Victor",
+        "adresse_complete": "Basilique Saint-Victor, Rue de l'Abbaye, Saint-Victor, Marseille 7e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13007, France",
+        "latitude": 43.2903106,
+        "longitude": 5.3655786,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Archange Théâtre",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Archaos Pôle National du Cirque",
+        "adresse_complete": "Archaos Pôle national du cirque, Boulevard de la Méditerranée, Les Petites Crottes, La Cabucelle, Marseille 15e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13015, France",
+        "latitude": 43.3334663,
+        "longitude": 5.3627888,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Archives Municipales",
+        "adresse_complete": "Archives Municipales, 10, Rue Clovis Hugues, La Belle de Mai, Marseille 3e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13003, France",
+        "latitude": 43.3092021,
+        "longitude": 5.3874759,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Archives départementales",
+        "adresse_complete": "Jardin des Archives Départementales, La Villette, Marseille 3e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13003, France",
+        "latitude": 43.3124404,
+        "longitude": 5.3702753,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Artplexe Canebière",
+        "adresse_complete": "Artplexe Canebière, Place Léon Blum, Le Chapitre, Marseille 1er Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13001, France",
+        "latitude": 43.2986408,
+        "longitude": 5.3830575,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Avenue François Mignet (angle avenue de la Rose)",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Avenue du Prado",
+        "adresse_complete": "Avenue du Prado, Périer, Marseille 8e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13008, France",
+        "latitude": 43.2796453,
+        "longitude": 5.3869598,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Badaboum Théâtre",
+        "adresse_complete": "Badaboum Théâtre, 16, Quai de Rive-Neuve, Saint-Victor, Marseille 7e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13007, France",
+        "latitude": 43.2929729,
+        "longitude": 5.3706131,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Bas de la Canebière",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Basilique Notre-Dame de la Garde",
+        "adresse_complete": "Basilique Notre-Dame de la Garde, Montée de l'Oratoire, Vauban, Marseille 6e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13006, France",
+        "latitude": 43.2839455,
+        "longitude": 5.371242,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Bibliothèque Alcazar BMVR",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Bibliothèque du Merlan",
+        "adresse_complete": "Bibliothèque du Merlan, Avenue Raimu, Saint-Barthélemy, Marseille 14e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13014, France",
+        "latitude": 43.3305643,
+        "longitude": 5.3988759,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Boulevard Michelet",
+        "adresse_complete": "Orange Vélodrome, 3, Boulevard Michelet, Saint-Giniez, Marseille 8e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13008, France",
+        "latitude": 43.269835,
+        "longitude": 5.3959117,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Cabaret Aléatoire",
+        "adresse_complete": "Cabaret Aléatoire, Rue Intérieure, La Belle de Mai, Marseille 3e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13003, France",
+        "latitude": 43.3102194,
+        "longitude": 5.3909648,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Cabaret l'Etoile Bleue",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Cathédrale de la Major",
+        "adresse_complete": "Cathédrale de la Major, 1, Avenue Robert Schuman, La Joliette, Marseille 2e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13002, France",
+        "latitude": 43.2997902,
+        "longitude": 5.3649382,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Centre de Conservation et de Ressources du Mucem",
+        "adresse_complete": "Centre de conservation et de ressources du Mucem, Rue Clovis Hugues, La Belle de Mai, Marseille 3e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13003, France",
+        "latitude": 43.3084716,
+        "longitude": 5.3869771,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Centre de culture provençale de Château-Gombert : Roudelet Felibren",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Centre de la Vieille Charité (CVC)",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Centre de la Vieille Charité - (CVC)",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Centre de voile du CNTL",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Château Sourire",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Cinémas Variétés, Artplexe, La Baleine",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Cité de la Musique de Marseille - L'Auditorium, Médiathèque",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Cité des Arts de la Rue",
+        "adresse_complete": "Cité des Arts de la Rue, Les Aygalades, Marseille 15e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13015, France",
+        "latitude": 43.3528026,
+        "longitude": 5.3646732,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Comédie Club Vieux Port",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Conservatoire Pierre Barbizet",
+        "adresse_complete": "Conservatoire National à Rayonnement Régional Pierre Barbizet, Rue de la Bibliothèque, La Plaine, Marseille 1er Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13001, France",
+        "latitude": 43.2958265,
+        "longitude": 5.3838234,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Conservatoire Pierre Barbizet / INSEAMM",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Cosquer Méditerranée",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Cours Joseph Thierry",
+        "adresse_complete": "Cours Joseph Thierry, Le Chapitre, Marseille 1er Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13001, France",
+        "latitude": 43.3003911,
+        "longitude": 5.3858133,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Cours Julien",
+        "adresse_complete": "Cours Julien, Notre-Dame du Mont, Marseille 6e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13006, France",
+        "latitude": 43.295083,
+        "longitude": 5.3828064,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Darse du Mucem",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Différents lieux : CMA Fédération, CMA Fédération Retraités, Place Edmond Audran, CMA Chartreux,",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Différents lieux dans Marseille",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Différents lieux dans Marseille et aux alentours",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Divadlo Théâtre",
+        "adresse_complete": "Divadlo Théâtre, Rue Sainte-Cécile, Baille, Marseille 5e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13005, France",
+        "latitude": 43.2880266,
+        "longitude": 5.3943984,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Double V",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Départ du Vieux Port",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Départ et arrivée au Vieux-Port de Marseille",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Départ fictif donné à Château Gombert",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Dérive",
+        "adresse_complete": "Dérive, 49, Rue de Suez, Le Pharo, Marseille 7e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13007, France",
+        "latitude": 43.2911013,
+        "longitude": 5.3562202,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Eglise Notre-Dame du Mont",
+        "adresse_complete": "Église Notre-Dame du Mont, Rue de La Loubière, La Plaine, Marseille 6e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13006, France",
+        "latitude": 43.2917113,
+        "longitude": 5.3853229,
+        "status": "OK"
+    },
+    {
+        "nom_original": "En rade sud de Marseille, du Vieux Port à Cassis",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Ensemble Musicatreize - La Salle",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Escale Borély",
+        "adresse_complete": "Escale Borély, Bonneveine, Marseille 8e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13008, France",
+        "latitude": 43.2546165,
+        "longitude": 5.3750254,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Espace Bargemon Hôtel de Ville - Place Castellane",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Espace Julien",
+        "adresse_complete": "Espace Julien, 39, Cours Julien, La Plaine, Marseille 6e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13006, France",
+        "latitude": 43.2943103,
+        "longitude": 5.3834346,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Esplanade Bargemon",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Esplanade Gisèle Halimi",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Esplanade Saint Just",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Friche Belle de Mai",
+        "adresse_complete": "Friche Belle de Mai, Rue Jobin, La Belle de Mai, Marseille 3e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13003, France",
+        "latitude": 43.3095077,
+        "longitude": 5.3902867,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Galerie Marianne Cat",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Galerie Territoires Partagés",
+        "adresse_complete": "Galerie Territoires Partagés, Rue de La Loubière, Notre-Dame du Mont, Marseille 6e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13006, France",
+        "latitude": 43.2915379,
+        "longitude": 5.3865121,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Galerie du Tableau",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Galerie la Nave Va",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Grand Bar LE CHAPITRE",
+        "adresse_complete": "Grand Bar du Chapitre, Square Stalingrad, Le Chapitre, Marseille 1er Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13001, France",
+        "latitude": 43.2994024,
+        "longitude": 5.385872,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Grand Littoral - Porte Sud",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Haut de la Canebière du kiosque à musique au bd Dugommier",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Hors les murs",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Hôtel NHOW",
+        "adresse_complete": "nhow Marseille Palm Beach, 200, Corniche du Président John Fitzgerald Kennedy, La Plage, Marseille 8e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13007, France",
+        "latitude": 43.268564,
+        "longitude": 5.3696472,
+        "status": "OK"
+    },
+    {
+        "nom_original": "InterContinental Marseille - Hotel Dieu",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Jardin Amable Chanot",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Jardin Maison Montgrand",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "KLAP Maison pour la Danse Kelemenis & Cie",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "L'Affranchi",
+        "adresse_complete": "L'Affranchi, 212, Boulevard de Saint-Marcel, Petit Saint-Marcel, Saint-Marcel, Marseille 11e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13011, France",
+        "latitude": 43.286483,
+        "longitude": 5.467519,
+        "status": "OK"
+    },
+    {
+        "nom_original": "L'Antidote",
+        "adresse_complete": "L'antidote, Place Edmond Audran, Les Chartreux, Marseille 4e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13004, France",
+        "latitude": 43.3104811,
+        "longitude": 5.4021228,
+        "status": "OK"
+    },
+    {
+        "nom_original": "L'Arca delle lingue",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "L'R de la mer",
+        "adresse_complete": "Rue de la Philaudrie, Les Aubraies, Chante-Alouette, Rochefort, Charente-Maritime, Nouvelle-Aquitaine, France métropolitaine, 17300, France",
+        "latitude": 45.9397848,
+        "longitude": -0.9797626,
+        "status": "OK"
+    },
+    {
+        "nom_original": "La Buzine - Maison des Cinématographies de la Méditerranée",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "La Canebière",
+        "adresse_complete": "La Canebière, Le Chapitre, Marseille 1er Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13001, France",
+        "latitude": 43.2982977,
+        "longitude": 5.3830317,
+        "status": "OK"
+    },
+    {
+        "nom_original": "La Caravelle",
+        "adresse_complete": "La Caravelle, 34, Quai du Port, Hôtel de Ville, Marseille 2e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13002, France",
+        "latitude": 43.2964951,
+        "longitude": 5.3720473,
+        "status": "OK"
+    },
+    {
+        "nom_original": "La Caverne Jazz",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "La Citadelle de Marseille",
+        "adresse_complete": "La Citadelle, Marseille 14e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13014, France",
+        "latitude": 43.3343084,
+        "longitude": 5.4042208,
+        "status": "OK"
+    },
+    {
+        "nom_original": "La Criée - Théâtre National de Marseille",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "La Divine Comédie",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "La Fabulerie",
+        "adresse_complete": "La Fabulerie, Boulevard Garibaldi, Noailles, Marseille 1er Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13001, France",
+        "latitude": 43.29697,
+        "longitude": 5.3808366,
+        "status": "OK"
+    },
+    {
+        "nom_original": "La Fabulerie - Théâtre Joliette - Cosquer Méditerranée",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "La Hangar à sucre",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "La Marmite Joyeuse",
+        "adresse_complete": "La Marmite Joyeuse, 33, Boulevard National, Le Chapitre, Marseille 1er Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13001, France",
+        "latitude": 43.3026191,
+        "longitude": 5.3865093,
+        "status": "OK"
+    },
+    {
+        "nom_original": "La Mesón",
+        "adresse_complete": "La Mesón, Rue Consolat, Le Chapitre, Marseille 1er Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13001, France",
+        "latitude": 43.3003044,
+        "longitude": 5.3878357,
+        "status": "OK"
+    },
+    {
+        "nom_original": "La Plaine",
+        "adresse_complete": "Place Jean Jaurès, Le Camas, Marseille 5e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13005, France",
+        "latitude": 43.2950937,
+        "longitude": 5.3865572,
+        "status": "OK"
+    },
+    {
+        "nom_original": "La Plateforme",
+        "adresse_complete": "La Plateforme_, 12, Rue Urbain V, Arenc, Marseille 2e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13002, France",
+        "latitude": 43.314685,
+        "longitude": 5.3680966,
+        "status": "OK"
+    },
+    {
+        "nom_original": "La Voûte Virgo",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Labo Photo Rétine",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Latté",
+        "adresse_complete": "Latté, 16, Rue de l'Évêché, Hôtel de Ville, Marseille 2e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13002, France",
+        "latitude": 43.2981824,
+        "longitude": 5.3659923,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Le 16/19 Comédie Marseille",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Le Cepac Silo",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Le Chapiteau",
+        "adresse_complete": "Le Chapiteau - La Belle-de-Mai, Traverse Notre-Dame-du-Bon-Secours, La Belle de Mai, Marseille 3e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13003, France",
+        "latitude": 43.3147095,
+        "longitude": 5.3864307,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Le Dôme",
+        "adresse_complete": "Le Dôme, Avenue Alexandre Fleming, Les Chartreux, Marseille 4e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13004, France",
+        "latitude": 43.3153154,
+        "longitude": 5.4044232,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Le Jardin Parfumé",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Le Makeda",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Le Molotov",
+        "adresse_complete": "Le Molotov, 3, Place Paul Cézanne, La Plaine, Marseille 6e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13006, France",
+        "latitude": 43.2927083,
+        "longitude": 5.3831674,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Le Récif (deuxième étage)",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Le Vieux-Port",
+        "adresse_complete": "New Hôtel Le Quai Vieux-Port, Rue Reine Élisabeth Von Wittelbach, Belsunce, Marseille 1er Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13001, France",
+        "latitude": 43.2960728,
+        "longitude": 5.3748366,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Le Zef - Scène Nationale de Marseille - A cour - Site du Merlan",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Les Beaux-Arts de Marseille - INSEAMM",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Les Docks Village",
+        "adresse_complete": "Les Docks Village, Place du Corps Consulaire, La Joliette, Marseille 2e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13002, France",
+        "latitude": 43.3072916,
+        "longitude": 5.3664918,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Les Docks de la Joliette",
+        "adresse_complete": "Les Docks de la Joliette, Place de la Joliette, La Joliette, Marseille 2e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13002, France",
+        "latitude": 43.3049059,
+        "longitude": 5.3660294,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Les ateliers de la Blancarde",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Mairie des 1er et 7e arrondissements",
+        "adresse_complete": "Mairie des 1er et 7e arrondissements, Rue Vincent Scotto, Belsunce, Marseille 1er Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13001, France",
+        "latitude": 43.2970576,
+        "longitude": 5.3788749,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Marché des Capucins",
+        "adresse_complete": "Marché des Capucins, Place du Marché des Capucins, Noailles, Marseille 1er Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13001, France",
+        "latitude": 43.29637,
+        "longitude": 5.3801246,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Marseille",
+        "adresse_complete": "Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, France",
+        "latitude": 43.2961743,
+        "longitude": 5.3699525,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Marseille Comedy Club",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Mucem",
+        "adresse_complete": "Musée des Civilisations de l'Europe et de la Méditerranée, 7, Promenade Robert Laffont, La Joliette, Marseille 2e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13002, France",
+        "latitude": 43.2967288,
+        "longitude": 5.3610255,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Musée Borély - Musée des Arts décoratifs, de la Faïence et de la Mode",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Musée Borély – Musée des Arts décoratifs, de la Faïence et de la Mode",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Musée Cantini",
+        "adresse_complete": "Musée Cantini, Rue Grignan, Préfecture, Marseille 6e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13006, France",
+        "latitude": 43.2922074,
+        "longitude": 5.3782084,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Musée Regards de Provence",
+        "adresse_complete": "Musée Regards de Provence, Tunnel de la Major, La Joliette, Marseille 2e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13002, France",
+        "latitude": 43.2977452,
+        "longitude": 5.3635703,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Musée d'Archéologie Méditerranéenne",
+        "adresse_complete": "Musée d'Archéologie Méditerranéenne, 2, Rue de la Charité, Les Grands Carmes, Marseille 2e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13002, France",
+        "latitude": 43.3005836,
+        "longitude": 5.3682814,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Musée d'Art Contemporain de Marseille [mac]",
+        "adresse_complete": "Musée d'art contemporain de Marseille, Avenue d'Haïfa, Sainte-Anne, Marseille 8e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13008, France",
+        "latitude": 43.2504507,
+        "longitude": 5.3901765,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Musée d'Arts Africains, Océaniens et Amérindiens (MAAOA)",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Musée d'Histoire de Marseille - (MHM)",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Musée de la Moto",
+        "adresse_complete": "Musée de la Moto, 18, Traverse Saint-Paul, Saint-Just, Marseille 13e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13013, France",
+        "latitude": 43.3281293,
+        "longitude": 5.4040196,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Musée des Beaux-Arts - (MBA)",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Musée des Civilisations d'Europe et Méditerranée - Mucem",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Musée des Enfants - Préau des Accoules",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Muséum d'Histoire Naturelle",
+        "adresse_complete": "Muséum d'Histoire Naturelle, Rue Espérandieu, Les Cinq-Avenues, Marseille 4e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13004, France",
+        "latitude": 43.3037856,
+        "longitude": 5.3945946,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Médiathèque de Bonneveine",
+        "adresse_complete": "Médiathèque de Bonneveine (DVD/CD), 112, Avenue de Hambourg, La Vieille-Chapelle, Marseille 8e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13008, France",
+        "latitude": 43.2494386,
+        "longitude": 5.3889147,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Mémorial des déportations",
+        "adresse_complete": "Mémorial des déportations, Avenue Vaudoyer, Hôtel de Ville, Marseille 2e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13002, France",
+        "latitude": 43.2955552,
+        "longitude": 5.3624855,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Nombreux lieux culturels marseillais",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Oh!Mirettes",
+        "adresse_complete": "Oh ! Mirettes, 19, Rue des Trois Rois, La Plaine, Marseille 6e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13006, France",
+        "latitude": 43.2938938,
+        "longitude": 5.3849588,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Opéra de Marseille",
+        "adresse_complete": "Opéra de Marseille, 2, Rue Molière, Opéra, Marseille 1er Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13001, France",
+        "latitude": 43.2933484,
+        "longitude": 5.37588,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Orange Vélodrome",
+        "adresse_complete": "Orange Vélodrome, 3, Boulevard Michelet, Saint-Giniez, Marseille 8e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13008, France",
+        "latitude": 43.269835,
+        "longitude": 5.3959117,
+        "status": "OK"
+    },
+    {
+        "nom_original": "PALAIS DES CONGRES",
+        "adresse_complete": "Palais des Congrès, Allée Ray-Grassi, Saint-Giniez, Marseille 8e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13008, France",
+        "latitude": 43.2717982,
+        "longitude": 5.3936876,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Palais Omnisports Marseille Grand Est (Palais de la Glisse)",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Palais de la Bourse",
+        "adresse_complete": "Palais de la Bourse, 9, La Canebière, Belsunce, Marseille 1er Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13001, France",
+        "latitude": 43.296148,
+        "longitude": 5.3753975,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Palais des Congrès",
+        "adresse_complete": "Palais des Congrès, Allée Ray-Grassi, Saint-Giniez, Marseille 8e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13008, France",
+        "latitude": 43.2717982,
+        "longitude": 5.3936876,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Palais des Congrès - Marseille Chanot",
+        "adresse_complete": "Palais des Évènements, Entrée principale, Saint-Giniez, Marseille 8e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13008, France",
+        "latitude": 43.2726619,
+        "longitude": 5.3946728,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Palais des Sports",
+        "adresse_complete": "Palais des sports, Rue Raymond Teisseire, Sainte-Marguerite, Marseille 9e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13008, France",
+        "latitude": 43.2710572,
+        "longitude": 5.4011531,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Palais du Pharo",
+        "adresse_complete": "Palais du Pharo, 58, Boulevard Charles Livon, Le Pharo, Marseille 7e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13007, France",
+        "latitude": 43.2942477,
+        "longitude": 5.3580321,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Parc Balnéaire du Prado",
+        "adresse_complete": "Parc Balnéaire du Prado, Marseille 8e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13008, France",
+        "latitude": 43.262401,
+        "longitude": 5.3732385,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Parc Borély",
+        "adresse_complete": "Parc Borély, Marseille 8e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13008, France",
+        "latitude": 43.2596108,
+        "longitude": 5.3828871,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Parc de Bagatelle",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Parc des Expositions",
+        "adresse_complete": "Marseille Chanot - Palais des Congrès et des Expositions, Marseille 8e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13008, France",
+        "latitude": 43.2728451,
+        "longitude": 5.3956765,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Parcs et lieux en plein air à Marseille",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Parvis de l'Opéra",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Place Bernard Cadenat",
+        "adresse_complete": "Place Bernard Cadenat, La Belle de Mai, Marseille 3e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13003, France",
+        "latitude": 43.3121304,
+        "longitude": 5.3869984,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Place Canovas",
+        "adresse_complete": "Place Alphonse Canovas, Les Baumes, Saint-Antoine, Marseille 15e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13015, France",
+        "latitude": 43.3713187,
+        "longitude": 5.3554088,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Place Claude Bernard",
+        "adresse_complete": "Place Claude Bernard, Montolivet, Marseille 12e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13012, France",
+        "latitude": 43.3174422,
+        "longitude": 5.4239865,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Place Edmond Audran",
+        "adresse_complete": "Place Edmond Audran, Les Chartreux, Marseille 4e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13004, France",
+        "latitude": 43.310456,
+        "longitude": 5.4020286,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Place Estrangin Pastré",
+        "adresse_complete": "Place Estrangin Pastré, Palais de Justice, Marseille 6e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13006, France",
+        "latitude": 43.2902274,
+        "longitude": 5.3778252,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Place Jean Jaurès",
+        "adresse_complete": "Place Jean Jaurès, Le Camas, Marseille 5e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13005, France",
+        "latitude": 43.2950937,
+        "longitude": 5.3865572,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Place Joseph Vidal",
+        "adresse_complete": "Place Joseph Vidal, La Pointe-Rouge, Marseille 8e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13008, France",
+        "latitude": 43.2432453,
+        "longitude": 5.3700304,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Place Raphèle",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Place Saint Victor",
+        "adresse_complete": "Place Saint-Victor, Saint-Victor, Marseille 7e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13007, France",
+        "latitude": 43.2906725,
+        "longitude": 5.3656094,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Place Sébastopol",
+        "adresse_complete": "Place Sébastopol, Les Cinq-Avenues, Marseille 4e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13004, France",
+        "latitude": 43.2990249,
+        "longitude": 5.3972145,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Place de la Joliette",
+        "adresse_complete": "Place de la Joliette, La Joliette, Marseille 2e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13002, France",
+        "latitude": 43.3046916,
+        "longitude": 5.3662062,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Place des Etats-Unis",
+        "adresse_complete": "Place des États-Unis, Le Canet, Marseille 14e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13014, France",
+        "latitude": 43.3262605,
+        "longitude": 5.3749805,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Place du 23 janvier 1943",
+        "adresse_complete": "Place du 23 Janvier 1943, Hôtel de Ville, Marseille 2e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13002, France",
+        "latitude": 43.2979136,
+        "longitude": 5.370331,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Place du Lieutenant Durand",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Plage de l'Estaque",
+        "adresse_complete": "Plage de l'Estaque, Fontaine des Tuiles, L'Estaque, Marseille 16e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13016, France",
+        "latitude": 43.3587285,
+        "longitude": 5.3183794,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Pub Le Blackstone",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "QG Marseille",
+        "adresse_complete": "QG, Rue des Trois Rois, La Plaine, Marseille 6e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13006, France",
+        "latitude": 43.2944587,
+        "longitude": 5.3844602,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Quai du Port",
+        "adresse_complete": "Quai du Port, Hôtel de Ville, Marseille 2e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13002, France",
+        "latitude": 43.2955725,
+        "longitude": 5.36669,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Quartier Chave",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Quartier Saint Pierre",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Quartier Vauban",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Rade de Marseille",
+        "adresse_complete": "Boulevard de la Rade, Endoume, Marseille 7e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13007, France",
+        "latitude": 43.2867273,
+        "longitude": 5.3528182,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Rade de Marseille, départ du Vieux Port",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Restaurant Fruit de la Passion",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Restaurant La Caravelle",
+        "adresse_complete": "La Caravelle, 34, Quai du Port, Hôtel de Ville, Marseille 2e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13002, France",
+        "latitude": 43.2964951,
+        "longitude": 5.3720473,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Restaurant Soul",
+        "adresse_complete": "Soul, 12, Rue du Théâtre-Français, Thiers, Marseille 1er Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13001, France",
+        "latitude": 43.297207,
+        "longitude": 5.3823549,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Roll'Studio",
+        "adresse_complete": "Roll'Studio, 17, Rue des Muettes, Hôtel de Ville, Marseille 2e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13002, France",
+        "latitude": 43.2988723,
+        "longitude": 5.3681353,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Rond point Castellane à Périer (côté pair)",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Rond point du Prado",
+        "adresse_complete": "Rond-Point du Prado, Saint-Giniez, Marseille 8e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13008, France",
+        "latitude": 43.2713492,
+        "longitude": 5.392721,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Rooftop des Terrasses du Port",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Scène Méditerranée - anciennement Théâtre Toursky",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Société Nautique",
+        "adresse_complete": "Société nautique de Marseille, Quai de Rive-Neuve, Saint-Victor, Marseille 7e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13007, France",
+        "latitude": 43.2933922,
+        "longitude": 5.3698433,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Sportbeach",
+        "adresse_complete": "SportBeach, Avenue Pierre Mendès France, Bonneveine, Marseille 8e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13008, France",
+        "latitude": 43.255779,
+        "longitude": 5.3756606,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Square Léon Blum",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Square Stalingrad",
+        "adresse_complete": "Square Stalingrad, Le Chapitre, Marseille 1er Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13001, France",
+        "latitude": 43.2995599,
+        "longitude": 5.3855898,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Stade nautique municipal  Florence Arthaud",
+        "adresse_complete": "Stade nautique municipal Florence Arthaud, Promenade Georges Pompidou, La Plage, Marseille 8e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13008, France",
+        "latitude": 43.266169,
+        "longitude": 5.3720803,
+        "status": "OK"
+    },
+    {
+        "nom_original": "TATTOO ART CLUB",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Temple Grignan",
+        "adresse_complete": "Le temple Protestant, Rue Grignan, Préfecture, Marseille 6e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13006, France",
+        "latitude": 43.2925081,
+        "longitude": 5.3786295,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Théâtre Badaboum",
+        "adresse_complete": "Badaboum Théâtre, 16, Quai de Rive-Neuve, Saint-Victor, Marseille 7e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13007, France",
+        "latitude": 43.2929729,
+        "longitude": 5.3706131,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Théâtre Joliette",
+        "adresse_complete": "Théâtre Joliette-Minoterie, Place Henri Verneuil, La Joliette, Marseille 2e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13002, France",
+        "latitude": 43.3092758,
+        "longitude": 5.3676857,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Théâtre L'Art Dû",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Théâtre La Cité et  20 lieux culturels marseillais partenaires",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Théâtre Les Bernardines",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Théâtre Marie-Jeanne",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Théâtre Massalia",
+        "adresse_complete": "Théâtre Massalia, Rue Intérieure, La Belle de Mai, Marseille 3e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13003, France",
+        "latitude": 43.3106734,
+        "longitude": 5.3911892,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Théâtre Silvain",
+        "adresse_complete": "Théâtre Silvain, Chemin du Pont, Endoume, Marseille 7e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13007, France",
+        "latitude": 43.2814683,
+        "longitude": 5.3553164,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Théâtre Strapontin",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Théâtre Up - Parvis des Arts",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Théâtre de l'Odéon",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Théâtre de l'Oeuvre",
+        "adresse_complete": "Théâtre de l'Œuvre, 1, Rue Mission de France, Belsunce, Marseille 1er Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13001, France",
+        "latitude": 43.2981776,
+        "longitude": 5.3801561,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Théâtre de la mer",
+        "adresse_complete": "Théâtre de la Mer, 53, Rue de la Joliette, Les Grands Carmes, Marseille 2e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13002, France",
+        "latitude": 43.3026675,
+        "longitude": 5.3709539,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Théâtre des Calanques",
+        "adresse_complete": "Théâtre des Calanques, Traverse de Carthage, Montredon, Marseille 8e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13008, France",
+        "latitude": 43.2348867,
+        "longitude": 5.3668281,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Théâtre des Chartreux",
+        "adresse_complete": "Théâtre des Chartreux, Avenue des Chartreux, Les Cinq-Avenues, Marseille 4e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13004, France",
+        "latitude": 43.3068009,
+        "longitude": 5.3995439,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Théâtre des chartreux 105 avenue des chartreux",
+        "adresse_complete": "Théâtre des Chartreux, Avenue des Chartreux, Les Cinq-Avenues, Marseille 4e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13004, France",
+        "latitude": 43.3068009,
+        "longitude": 5.3995439,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Théâtre du Carré Rond",
+        "adresse_complete": "Théâtre du Carré Rond, 23, Rue des Trois Rois, La Plaine, Marseille 6e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13006, France",
+        "latitude": 43.2937572,
+        "longitude": 5.3850765,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Théâtre du Têtard",
+        "adresse_complete": "Théâtre du Tétard, Rue Ferrari, Le Camas, Marseille 5e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13005, France",
+        "latitude": 43.2939302,
+        "longitude": 5.3884661,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Théâtre du festival en plein air",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Théâtre du lacydon",
+        "adresse_complete": "Théâtre du Lacydon, 3, Montée du Saint-Esprit, Hôtel de Ville, Marseille 2e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13002, France",
+        "latitude": 43.2979046,
+        "longitude": 5.3689244,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Vieux Port de Marseille",
+        "adresse_complete": "Vieux-Port, Quai du Port, Hôtel de Ville, Marseille 2e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13002, France",
+        "latitude": 43.2945804,
+        "longitude": 5.3692811,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Vieux-Port",
+        "adresse_complete": "Vieux-Port, Quai du Port, Hôtel de Ville, Marseille 2e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13002, France",
+        "latitude": 43.2945804,
+        "longitude": 5.3692811,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Vieux-Port,  Canebière, centre-ville, différents quartiers de Marseille et sites emblématiques",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Vieux-Port, Hôtel de Ville, Canebière et dans tous les quartiers de Marseille",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Villa Cosquer Méditerranée",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Villa Datcha",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "World Trade Center Marseille Provence",
+        "adresse_complete": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "ZEF",
+        "adresse_complete": "Le ZEF - Scène nationale de Marseille, Avenue Raimu, Saint-Barthélemy, Marseille 14e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13014, France",
+        "latitude": 43.3307459,
+        "longitude": 5.3986698,
+        "status": "OK"
+    },
+    {
+        "nom_original": "grande librairie internationale",
+        "adresse_complete": "Grande librairie internationale de Marseille, 3, Rue Vincent Scotto, Belsunce, Marseille 1er Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13001, France",
+        "latitude": 43.29713,
+        "longitude": 5.3780199,
+        "status": "OK"
+    }
+]

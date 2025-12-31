@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventMarseille - Accueil</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hero {
+            height: calc(100vh - 80px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: radial-gradient(circle at center, rgba(202, 240, 248, 0.5) 0%, rgba(255, 255, 255, 0) 70%);
+        }
+
+        .hero-content {
+            max-width: 800px;
+        }
+
+        .hero-title {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: var(--primary-dark);
+        }
+
+        .hero-subtitle {
+            font-size: 1.25rem;
+            color: var(--text-light);
+            margin-bottom: 3rem;
+        }
+
+        .nav-cards {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .nav-card {
+            background: white;
+            padding: 3rem;
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-md);
+            text-decoration: none;
+            color: var(--text-main);
+            transition: all 0.3s ease;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            border: 2px solid transparent;
+        }
+
+        .nav-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-lg);
+            border-color: var(--primary);
+        }
+
+        .nav-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .nav-card-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container nav-wrapper">
+            <a href="index.html" class="logo">
+                EventMarseille
+            </a>
+            <nav class="nav-links">
+                <a href="map.html" class="nav-link">Carte</a>
+                <a href="list.html" class="nav-link">Liste</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Découvrez Marseille</h1>
+            <p class="hero-subtitle">Explorez les meilleurs événements et lieux de la cité phocéenne.</p>
+
+            <div class="nav-cards">
+                <a href="map.html" class="nav-card">
+                    <div class="nav-icon">🗺️</div>
+                    <div class="nav-card-title">Carte Interactive</div>
+                    <p>Visualisez les événements sur une carte et filtrez par date.</p>
+                </a>
+
+                <a href="list.html" class="nav-card">
+                    <div class="nav-icon">📅</div>
+                    <div class="nav-card-title">Liste des Événements</div>
+                    <p>Parcourez tous les événements à venir en détail.</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

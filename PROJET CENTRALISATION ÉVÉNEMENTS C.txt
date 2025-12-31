@@ -1,0 +1,54 @@
+PROJET : CENTRALISATION ÉVÉNEMENTS CULTURELS MARSEILLE
+======================================================
+
+--- 1. ÉTAT DES LIEUX DES SOURCES ---
+
+[Généraliste / Institutionnel]
+- Sortir à Marseille : Très complet (Théâtre, Municipal), facile à scraper.
+- ConcertAndCo : Annonces de tournées et lives, à fetcher.
+
+[Billetteries & Plateformes (Clubbing/Live)]
+- Shotgun : Référence Électro/Clubbing.
+- Dice.fm : Salles de concerts moyennes/grandes.
+- Resident Advisor (RA) : Électro pointue et underground.
+
+[Salles en direct]
+- Le Molotov : Programmation rock/alternative (site web propre).
+- Espace Julien : Programmation variée (site web propre).
+
+[Underground]
+- Vortexfrommars : Format papier/PDF (très riche, mais complexe à copier).
+
+[Réseaux Sociaux uniquement]
+- L'Intermédiaire Live : Facebook uniquement.
+- La Mûrisserie, Chat Perché, Vice Versa : Instagram uniquement (Stories/Posts).
+
+--- 2. STRATÉGIE TECHNIQUE DE RÉCUPÉRATION ---
+
+01 | SCRAPING (Structure HTML)
+     Source : Sortir à Marseille
+     État : OK.
+
+02 | PDF TO DATA (OCR + IA)
+     Source : Vortexfrommars
+     Méthode : Pipeline PDF -> Image -> LLM (Vision) pour structuration de texte.
+     État : OK.
+
+03 | FETCHING (API / JSON)
+     Sources : Shotgun, Dice, Resident Advisor, ConcertAndCo.
+     Méthode : Identification des endpoints API via l'inspecteur réseau.
+     État : À FAIRE.
+
+04 | FETCHING (Salles)
+     Sources : Molotov, Espace Julien.
+     Méthode : Extraction ciblée des calendriers web.
+     État : À FAIRE.
+
+05 | AUTOMATISATION RÉSEAUX SOCIAUX
+     Sources : Instagram (Mûrisserie, etc.), Facebook (Intermédiaire).
+     Méthode : Utilisation d'extracteurs tiers (Apify, Lobstr, Gridpanel).
+     État : EN RECHERCHE.
+
+--- 3. NOTES IMPORTANTES (DÉCEMBRE 2025) ---
+
+- Objectif final : Créer un pipeline de données unifié pour alimenter un agenda unique.

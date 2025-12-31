@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste des Événements - Marseille</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container nav-wrapper">
+            <a href="index.html" class="logo">
+                EventMarseille
+            </a>
+            <nav class="nav-links">
+                <a href="map.html" class="nav-link">Carte</a>
+                <a href="list.html" class="nav-link active">Liste</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="search-bar">
+            <input type="text" id="searchInput" class="search-input" placeholder="Rechercher un événement, un lieu...">
+        </div>
+
+        <div class="map-filters"
+            style="position: static; transform: none; margin-bottom: 2rem; box-shadow: none; background: transparent; display:flex; flex-direction:column; align-items:center;">
+            <div class="filter-row">
+                <button class="filter-btn active" data-period="all">Tous</button>
+                <button class="filter-btn" data-period="today">Aujourd'hui</button>
+                <button class="filter-btn" data-period="tomorrow">Demain</button>
+                <button class="filter-btn" data-period="week">Cette semaine</button>
+                <button class="filter-btn" data-period="month" id="btn-month">Ce mois</button>
+                <button class="filter-btn" data-period="next_month" id="btn-next-month">Mois prochain</button>
+            </div>
+
+            <div class="filter-row secondary-filters" style="justify-content: center;">
+                <label class="toggle-switch" title="Inclure les événements passés">
+                    <input type="checkbox" id="toggle-past">
+                    <span class="slider"></span>
+                    <span class="label-text">Inclure passés</span>
+                </label>
+
+                <label class="toggle-switch" title="L'événement doit être entièrement inclus dans la période">
+                    <input type="checkbox" id="toggle-exclusive">
+                    <span class="slider"></span>
+                    <span class="label-text">Dates exactes</span>
+                </label>
+
+                <div class="date-range-picker" style="background:white; border:1px solid #e2e8f0;">
+                    <input type="date" id="date-start" class="date-input">
+                    <span class="separator">à</span>
+                    <input type="date" id="date-end" class="date-input">
+                </div>
+            </div>
+        </div>
+
+        <div id="eventsGrid" class="events-grid">
+            <!-- Events will be injected here -->
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 EventMarseille. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+            const grid = document.getElementById('eventsGrid');
+            const searchInput = document.getElementById('searchInput');
+
+            // Initialize Data
+            const data = await eventManager.init();
+
+            const renderEvents = (events) => {
+                grid.innerHTML = '';
+                if (events.length === 0) {
+                    grid.innerHTML = '<p style="text-align:center; grid-column:1/-1; color:var(--text-light);">Aucun événement trouvé.</p>';
+                    return;
+                }
+
+                events.forEach(evt => {
+                    const card = document.createElement('div');
+                    card.className = 'card';
+
+                    // Tags HTML
+                    const tagsHtml = evt.tags ? evt.tags.slice(0, 3).map(tag => `<span class="tag">${tag}</span>`).join('') : '';
+
+                    // Image Source
+                    const imgSrc = evt.image_locale || evt.image_url;
+
+                    card.innerHTML = `
+                        <img src="${imgSrc}" alt="${evt.titre}" class="card-image" onerror="this.style.display='none'">
+                        <div class="card-content">
+                            <div class="card-tags">
+                                ${tagsHtml}
+                            </div>
+                            <h3 class="card-title">${evt.titre}</h3>
+                            <div class="card-date">
+                                📅 ${evt.date}
+                            </div>
+                            <div class="card-location">
+                                📍 ${evt.lieu}
+                            </div>
+                            <a href="${evt.lien}" target="_blank" style="display:inline-block; margin-top:1rem; font-weight:600; color:var(--primary);">Voir plus &rarr;</a>
+                        </div>
+                    `;
+                    grid.appendChild(card);
+                });
+            };
+
+            // Initial Render
+            const refreshList = () => {
+                const filtered = eventManager.getFilteredEvents();
+                renderEvents(filtered);
+            };
+
+            refreshList();
+
+            // Set dynamic month labels
+            const { current, next } = eventManager.getMonthNames();
+            document.getElementById('btn-month').textContent = `Ce mois : ${current}`;
+            document.getElementById('btn-next-month').textContent = `Mois prochain : ${next}`;
+
+            // Search Handler
+            searchInput.addEventListener('input', (e) => {
+                const query = e.target.value;
+                const filtered = eventManager.searchEvents(query);
+                renderEvents(filtered);
+            });
+
+            // Filter Handlers
+            // 1. Buttons
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                    e.target.classList.add('active');
+
+                    const period = e.target.dataset.period;
+                    eventManager.setFilterPeriod(period);
+                    refreshList();
+                });
+            });
+
+            // 2. Toggles
+            document.getElementById('toggle-past').addEventListener('change', (e) => {
+                eventManager.setIncludePast(e.target.checked);
+                refreshList();
+            });
+
+            document.getElementById('toggle-exclusive').addEventListener('change', (e) => {
+                eventManager.setExclusiveMode(e.target.checked);
+                refreshList();
+            });
+
+            // 3. Date Inputs
+            const dStart = document.getElementById('date-start');
+            const dEnd = document.getElementById('date-end');
+
+            const handleDateChange = () => {
+                if (dStart.value && dEnd.value) {
+                    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                    eventManager.setCustomDates(dStart.value, dEnd.value);
+                    refreshList();
+                }
+            };
+
+            dStart.addEventListener('change', handleDateChange);
+            dEnd.addEventListener('change', handleDateChange);
+        });
+    </script>
+</body>
+
+</html>

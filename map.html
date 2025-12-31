@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carte des Événements - Marseille</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container nav-wrapper">
+            <a href="index.html" class="logo">
+                EventMarseille
+            </a>
+            <nav class="nav-links">
+                <a href="map.html" class="nav-link active">Carte</a>
+                <a href="list.html" class="nav-link">Liste</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="map-page-container">
+        <!-- Floating Filters -->
+        <div class="map-filters">
+            <div class="filter-row">
+                <button class="filter-btn active" data-period="all">Tous</button>
+                <button class="filter-btn" data-period="today">Aujourd'hui</button>
+                <button class="filter-btn" data-period="tomorrow">Demain</button>
+                <button class="filter-btn" data-period="week">Cette semaine</button>
+                <button class="filter-btn" data-period="month" id="btn-month">Ce mois</button>
+                <button class="filter-btn" data-period="next_month" id="btn-next-month">Mois prochain</button>
+            </div>
+
+            <div class="filter-row secondary-filters">
+                <label class="toggle-switch" title="Inclure les événements passés">
+                    <input type="checkbox" id="toggle-past">
+                    <span class="slider"></span>
+                    <span class="label-text">Inclure passés</span>
+                </label>
+
+                <label class="toggle-switch" title="L'événement doit être entièrement inclus dans la période">
+                    <input type="checkbox" id="toggle-exclusive">
+                    <span class="slider"></span>
+                    <span class="label-text">Dates exactes</span>
+                </label>
+
+                <div class="date-range-picker">
+                    <input type="date" id="date-start" class="date-input">
+                    <span class="separator">à</span>
+                    <input type="date" id="date-end" class="date-input">
+                </div>
+            </div>
+        </div>
+
+        <div id="map"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="script.js"></script>
+    <script>
+        // Map Logic
+        document.addEventListener('DOMContentLoaded', async () => {
+            // Initialize Map focused on Marseille
+            const map = L.map('map').setView([43.2965, 5.3698], 13);
+
+            // Add tile layer (OpenStreetMap)
+            L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+                subdomains: 'abcd',
+                maxZoom: 20
+            }).addTo(map);
+
+            let markers = L.layerGroup().addTo(map);
+
+            // Fetch and Show Data
+            await eventManager.init();
+
+            // Refresh Logic
+            const refreshMap = () => {
+                const filtered = eventManager.getFilteredEvents();
+                markers.clearLayers();
+
+                filtered.forEach(evt => {
+                    if (evt._geo && evt._geo.latitude && evt._geo.longitude) {
+                        const marker = L.marker([evt._geo.latitude, evt._geo.longitude])
+                            .bindPopup(`
+                                <div style="min-width: 200px;">
+                                    <h3 style="margin:0 0 5px 0; color: #023e8a;">${evt.titre}</h3>
+                                    <p style="margin:0 0 5px 0; font-size: 0.9em; color: #666;">${evt.date}</p>
+                                    <p style="margin:0 0 10px 0; font-weight: 500;">${evt.lieu}</p>
+                                    <img src="${evt.image_url}" style="width:100%; height:100px; object-fit:cover; border-radius: 4px; margin-bottom: 5px;" onerror="this.style.display='none'">
+                                    <a href="${evt.lien}" target="_blank" style="display:block; text-align:center; background:#0077b6; color:white; padding:5px; border-radius:4px; text-decoration:none; font-size: 0.9em;">Voir détails</a>
+                                </div>
+                            `);
+                        markers.addLayer(marker);
+                    }
+                });
+            };
+
+            refreshMap();
+
+            // Set dynamic month labels
+            const { current, next } = eventManager.getMonthNames();
+            document.getElementById('btn-month').textContent = `Ce mois : ${current}`;
+            document.getElementById('btn-next-month').textContent = `Mois prochain : ${next}`;
+
+            // Filter Handlers
+            // 1. Buttons
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                    e.target.classList.add('active');
+
+                    const period = e.target.dataset.period;
+                    eventManager.setFilterPeriod(period);
+                    refreshMap();
+                });
+            });
+
+            // 2. Toggles
+            document.getElementById('toggle-past').addEventListener('change', (e) => {
+                eventManager.setIncludePast(e.target.checked);
+                refreshMap();
+            });
+
+            document.getElementById('toggle-exclusive').addEventListener('change', (e) => {
+                eventManager.setExclusiveMode(e.target.checked);
+                refreshMap();
+            });
+
+            // 3. Date Inputs
+            const dStart = document.getElementById('date-start');
+            const dEnd = document.getElementById('date-end');
+
+            const handleDateChange = () => {
+                if (dStart.value && dEnd.value) {
+                    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+
+                    eventManager.setCustomDates(dStart.value, dEnd.value);
+                    refreshMap();
+                }
+            };
+
+            dStart.addEventListener('change', handleDateChange);
+            dEnd.addEventListener('change', handleDateChange);
+        });
+    </script>
+</body>
+
+</html>

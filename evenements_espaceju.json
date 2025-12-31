@@ -1,0 +1,824 @@
+[
+    {
+        "titre": "TESSINA + MICRO-ONDES à Espace Julien",
+        "date": "Le 28 janvier 2026",
+        "start_date": "2026-01-28",
+        "end_date": "2026-01-28",
+        "lieu": "Espace Julien",
+        "description": "20:00",
+        "tags": [],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/tessina-micro-ondes",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/997-illustration_id-1765880478.jpg.webp?h=fbf7a813&itok=yZ-NYibJ",
+        "image_locale": null
+    },
+    {
+        "titre": "BOULEVARD DES AIRS à Espace Julien",
+        "date": "Le 12 février 2026",
+        "start_date": "2026-02-12",
+        "end_date": "2026-02-12",
+        "lieu": "Espace Julien",
+        "description": "20:00",
+        "tags": [
+            "chanson",
+            "pop"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/boulevard-des-airs",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/834-illustration_id-1737730039.jpg.webp?h=350ff607&itok=pKtu2jgf",
+        "image_locale": null
+    },
+    {
+        "titre": "Laura Cahen DUO à Espace Julien",
+        "date": "Le 13 février 2026",
+        "start_date": "2026-02-13",
+        "end_date": "2026-02-13",
+        "lieu": "Espace Julien",
+        "description": "19:00 - COMPLET",
+        "tags": [
+            "chanson"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/laura-cahen-duo",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/960-illustration_id-1757927629.jpg.webp?h=57024e64&itok=RmaP8I_g",
+        "image_locale": null
+    },
+    {
+        "titre": "SOPICO à Espace Julien",
+        "date": "Le 13 février 2026",
+        "start_date": "2026-02-13",
+        "end_date": "2026-02-13",
+        "lieu": "Espace Julien",
+        "description": "20:00 - + Amalia - Bientôt complet",
+        "tags": [
+            "rap / hip-hop"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/sopico",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/926-illustration_id-1749128020.jpg.webp?h=350ff607&itok=XiQ_AQvR",
+        "image_locale": null
+    },
+    {
+        "titre": "Ce soir on chante ! Avec le Labo de Clairie à Espace Julien",
+        "date": "Le 13 février 2026",
+        "start_date": "2026-02-13",
+        "end_date": "2026-02-13",
+        "lieu": "Espace Julien",
+        "description": "20:00",
+        "tags": [],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/ce-soir-chante-avec-le-labo-de-clairie",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/2025-12/1920x1080_marseille.jpg.webp?h=d1cb525d&itok=7Ykf2X-o",
+        "image_locale": null
+    },
+    {
+        "titre": "Lalou à Espace Julien",
+        "date": "Le 14 février 2026",
+        "start_date": "2026-02-14",
+        "end_date": "2026-02-14",
+        "lieu": "Espace Julien",
+        "description": "20:00 - COMPLET",
+        "tags": [],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/lalou",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/2025-12/lalou.png.webp?h=8165685c&itok=3X6gm2vi",
+        "image_locale": null
+    },
+    {
+        "titre": "RAINBOW GIRLS + ALICE FAYE à Espace Julien",
+        "date": "Le 14 février 2026",
+        "start_date": "2026-02-14",
+        "end_date": "2026-02-14",
+        "lieu": "Espace Julien",
+        "description": "20:00 - \"Les Nuits de l’Alligator\"",
+        "tags": [],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/rainbow-girls-alice-faye",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/981-illustration_id-1763117108.png.webp?h=e8711843&itok=X2bINzjf",
+        "image_locale": null
+    },
+    {
+        "titre": "KEROUÉ à Espace Julien",
+        "date": "Le 18 février 2026",
+        "start_date": "2026-02-18",
+        "end_date": "2026-02-18",
+        "lieu": "Espace Julien",
+        "description": "20:00",
+        "tags": [
+            "rap / hip-hop"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/keroue",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/966-illustration_id-1760538249.png.webp?h=9a595d66&itok=zQCcCIoN",
+        "image_locale": null
+    },
+    {
+        "titre": "L’EJ C’EST LE S x Savon Noire à Espace Julien",
+        "date": "Le 18 février 2026",
+        "start_date": "2026-02-18",
+        "end_date": "2026-02-18",
+        "lieu": "Espace Julien",
+        "description": "20:30 - 42L + Pristine Pit + RAVL",
+        "tags": [
+            "l'ej c'est le s"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/lej-cest-le-s-x-savon-noire",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/999-illustration_id-1766052351.jpg.webp?h=e8711843&itok=3C5OguZE",
+        "image_locale": null
+    },
+    {
+        "titre": "YUSTON XIII à Espace Julien",
+        "date": "Le 19 février 2026",
+        "start_date": "2026-02-19",
+        "end_date": "2026-02-19",
+        "lieu": "Espace Julien",
+        "description": "20:00",
+        "tags": [],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/yuston-xiii",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/972-illustration_id-1760538340.jpg.webp?h=0764f6ae&itok=SHUBDWA-",
+        "image_locale": null
+    },
+    {
+        "titre": "ANGINE DE POITRINE à Espace Julien",
+        "date": "Le 20 février 2026",
+        "start_date": "2026-02-20",
+        "end_date": "2026-02-20",
+        "lieu": "Espace Julien",
+        "description": "19:00",
+        "tags": [
+            "rock"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/angine-de-poitrine",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/994-illustration_id-1765386309.jpg.webp?h=d1cb525d&itok=51WvLpl-",
+        "image_locale": null
+    },
+    {
+        "titre": "LINH à Espace Julien",
+        "date": "Le 20 février 2026",
+        "start_date": "2026-02-20",
+        "end_date": "2026-02-20",
+        "lieu": "Espace Julien",
+        "description": "20:00 - LA TOURNÉE",
+        "tags": [
+            "pop"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/linh",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/924-illustration_id-1756980573.jpg.webp?h=f1d36a30&itok=pN7J2lGf",
+        "image_locale": null
+    },
+    {
+        "titre": "PAUL TAYLOR à Espace Julien",
+        "date": "Le 22 février 2026",
+        "start_date": "2026-02-22",
+        "end_date": "2026-02-22",
+        "lieu": "Espace Julien",
+        "description": "18:00",
+        "tags": [
+            "humour"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/paul-taylor",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/2025-05/Press%20shot.jpg.webp?h=731f521a&itok=CxUe7Ycl",
+        "image_locale": null
+    },
+    {
+        "titre": "SCYLLA & FURAX à Espace Julien",
+        "date": "Le 26 février 2026",
+        "start_date": "2026-02-26",
+        "end_date": "2026-02-26",
+        "lieu": "Espace Julien",
+        "description": "20:00 - Bientôt complet",
+        "tags": [
+            "rap / hip-hop"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/scylla-furax",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/963-illustration_id-1760538065.jpg.webp?h=7f1e4d21&itok=gMprXOfX",
+        "image_locale": null
+    },
+    {
+        "titre": "BLANDINE LEHOUT à Espace Julien",
+        "date": "Le 28 février 2026",
+        "start_date": "2026-02-28",
+        "end_date": "2026-02-28",
+        "lieu": "Espace Julien",
+        "description": "20:00 - COMPLET",
+        "tags": [
+            "humour"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/blandine-lehout",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/829-illustration_id-1738248375.jpg.webp?h=c86b83bf&itok=N0iGTvqF",
+        "image_locale": null
+    },
+    {
+        "titre": "KEVIN LEVY à Espace Julien",
+        "date": "Le 01 mars 2026",
+        "start_date": "2026-03-01",
+        "end_date": "2026-03-01",
+        "lieu": "Espace Julien",
+        "description": "18:00 - COCU",
+        "tags": [],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/kevin-levy",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/959-illustration_id-1758298780.png.webp?h=e5aec6c8&itok=nCIq9tHH",
+        "image_locale": null
+    },
+    {
+        "titre": "SCARLXRD à Espace Julien",
+        "date": "Le 03 mars 2026",
+        "start_date": "2026-03-03",
+        "end_date": "2026-03-03",
+        "lieu": "Espace Julien",
+        "description": "20:00",
+        "tags": [
+            "rap / hip-hop"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/scarlxrd",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/993-illustration_id-1764687076.jpg.webp?h=a1e1a043&itok=VkICEuep",
+        "image_locale": null
+    },
+    {
+        "titre": "AUPINARD à Espace Julien",
+        "date": "Le 05 mars 2026",
+        "start_date": "2026-03-05",
+        "end_date": "2026-03-05",
+        "lieu": "Espace Julien",
+        "description": "20:00 - + Asfar Shamsi",
+        "tags": [
+            "festival avec le temps",
+            "rnb / soul"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/aupinard",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/936-illustration_id-1751616148.jpeg.webp?h=7f412c8f&itok=kchIJTIV",
+        "image_locale": null
+    },
+    {
+        "titre": "MPL à Espace Julien",
+        "date": "Le 06 mars 2026",
+        "start_date": "2026-03-06",
+        "end_date": "2026-03-06",
+        "lieu": "Espace Julien",
+        "description": "20:00 - + Juliette Magnevasoa - Bientôt complet",
+        "tags": [
+            "festival avec le temps",
+            "pop"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/mpl",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/964-illustration_id-1758891178.jpg.webp?h=57cfe29c&itok=uwhg9Yji",
+        "image_locale": null
+    },
+    {
+        "titre": "KUTU à Espace Julien",
+        "date": "Le 07 mars 2026",
+        "start_date": "2026-03-07",
+        "end_date": "2026-03-07",
+        "lieu": "Espace Julien",
+        "description": "20:00",
+        "tags": [
+            "blues / jazz",
+            "electro"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/kutu",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/990-illustration_id-1764236062.JPG?h=a0478ff3&itok=OzFsFCZR",
+        "image_locale": null
+    },
+    {
+        "titre": "OXMO PUCCINO à Espace Julien",
+        "date": "Le 07 mars 2026",
+        "start_date": "2026-03-07",
+        "end_date": "2026-03-07",
+        "lieu": "Espace Julien",
+        "description": "20:00 - + Tifol - Bientôt complet",
+        "tags": [
+            "festival avec le temps",
+            "rap / hip-hop"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/oxmo-puccino",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/967-illustration_id-1759311087.jpg.webp?h=60a9e832&itok=COa_2B_M",
+        "image_locale": null
+    },
+    {
+        "titre": "BERTRAND BELIN à Espace Julien",
+        "date": "Le 10 mars 2026",
+        "start_date": "2026-03-10",
+        "end_date": "2026-03-10",
+        "lieu": "Espace Julien",
+        "description": "20:00 - + Alma Rechtman - COMPLET",
+        "tags": [
+            "chanson",
+            "festival avec le temps"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/bertrand-belin",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/961-illustration_id-1758181793.png.webp?h=b3935e68&itok=Tw7JDdTO",
+        "image_locale": null
+    },
+    {
+        "titre": "CARTE BLANCHE A TEKNIBAL à Espace Julien",
+        "date": "Le 13 mars 2026",
+        "start_date": "2026-03-13",
+        "end_date": "2026-03-13",
+        "lieu": "Espace Julien",
+        "description": "20:00 - avec Ciac Boom, Le Mange Bal et Basstong",
+        "tags": [
+            "festival avec le temps"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/carte-blanche-teknibal",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/979-illustration_id-1762510526.jpg.webp?h=3f4105a9&itok=pnOZE0QZ",
+        "image_locale": null
+    },
+    {
+        "titre": "COEUR DE PIRATE à Espace Julien",
+        "date": "Le 14 mars 2026",
+        "start_date": "2026-03-14",
+        "end_date": "2026-03-14",
+        "lieu": "Espace Julien",
+        "description": "20:00 - + Alex Montembault",
+        "tags": [
+            "chanson",
+            "festival avec le temps"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/coeur-de-pirate",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/894-illustration_id-1742529503.png.webp?h=b3935e68&itok=W4CAfc_s",
+        "image_locale": null
+    },
+    {
+        "titre": "AJAR à Espace Julien",
+        "date": "Le 21 mars 2026",
+        "start_date": "2026-03-21",
+        "end_date": "2026-03-21",
+        "lieu": "Espace Julien",
+        "description": "20:00",
+        "tags": [
+            "blues / jazz",
+            "pop"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/ajar-0",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/962-illustration_id-1758112807.jpg.webp?h=f405c703&itok=aJCfHNMs",
+        "image_locale": null
+    },
+    {
+        "titre": "YVNNIS à Espace Julien",
+        "date": "Le 21 mars 2026",
+        "start_date": "2026-03-21",
+        "end_date": "2026-03-21",
+        "lieu": "Espace Julien",
+        "description": "20:30 - + PREMIERE PARTIE",
+        "tags": [
+            "rap / hip-hop"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/yvnnis",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/968-illustration_id-1760630684.jpg.webp?h=da9bd7de&itok=gU7fLhnx",
+        "image_locale": null
+    },
+    {
+        "titre": "ADEL FUGAZI à Espace Julien",
+        "date": "Le 22 mars 2026",
+        "start_date": "2026-03-22",
+        "end_date": "2026-03-22",
+        "lieu": "Espace Julien",
+        "description": "19:00",
+        "tags": [
+            "humour"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/adel-fugazi",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/971-illustration_id-1759938318.jpeg.webp?h=e8711843&itok=5DakCVB_",
+        "image_locale": null
+    },
+    {
+        "titre": "DANYL à Espace Julien",
+        "date": "Le 27 mars 2026",
+        "start_date": "2026-03-27",
+        "end_date": "2026-03-27",
+        "lieu": "Espace Julien",
+        "description": "20:00",
+        "tags": [
+            "rap / hip-hop"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/danyl",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/950-illustration_id-1763396491.png.webp?h=abd41f9b&itok=7Vv5dDvb",
+        "image_locale": null
+    },
+    {
+        "titre": "THÉA à Espace Julien",
+        "date": "Le 28 mars 2026",
+        "start_date": "2026-03-28",
+        "end_date": "2026-03-28",
+        "lieu": "Espace Julien",
+        "description": "20:00",
+        "tags": [
+            "pop"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/thea-0",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/912-illustration_id-1746019411.jpg.webp?h=350ff607&itok=JCyoOzUW",
+        "image_locale": null
+    },
+    {
+        "titre": "ELIOTT DOYLE à Espace Julien",
+        "date": "Le 29 mars 2026",
+        "start_date": "2026-03-29",
+        "end_date": "2026-03-29",
+        "lieu": "Espace Julien",
+        "description": "18:00 - C’est Quoi la Suite ?",
+        "tags": [
+            "humour"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/eliott-doyle",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/945-illustration_id-1752140823.jpg.webp?h=8e23dfd3&itok=S6SPZ2du",
+        "image_locale": null
+    },
+    {
+        "titre": "KISS FOREVER BAND à Espace Julien",
+        "date": "Le 01 avril 2026",
+        "start_date": "2026-04-01",
+        "end_date": "2026-04-01",
+        "lieu": "Espace Julien",
+        "description": "20:00",
+        "tags": [],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/kiss-forever-band",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/2025-12/kiss_forever_band.jpeg.webp?h=2179f13d&itok=GYO-DLNd",
+        "image_locale": null
+    },
+    {
+        "titre": "MIMAA à Espace Julien",
+        "date": "Le 02 avril 2026",
+        "start_date": "2026-04-02",
+        "end_date": "2026-04-02",
+        "lieu": "Espace Julien",
+        "description": "20:00",
+        "tags": [],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/mimaa",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/983-illustration_id-1762968160.jpg.webp?h=51bb46c5&itok=BqR_jncw",
+        "image_locale": null
+    },
+    {
+        "titre": "SOLANN à Espace Julien",
+        "date": "Le 02 avril 2026",
+        "start_date": "2026-04-02",
+        "end_date": "2026-04-02",
+        "lieu": "Espace Julien",
+        "description": "20:00",
+        "tags": [
+            "folk"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/solann",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/902-illustration_id-1743440890.jpg.webp?h=350ff607&itok=wUqCI9Sf",
+        "image_locale": null
+    },
+    {
+        "titre": "MARLON MAGNÉE à Espace Julien",
+        "date": "Le 03 avril 2026",
+        "start_date": "2026-04-03",
+        "end_date": "2026-04-03",
+        "lieu": "Espace Julien",
+        "description": "20:00",
+        "tags": [
+            "rock"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/marlon-magnee",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/980-illustration_id-1762961314.jpg.webp?h=e8275916&itok=FhuSWhkK",
+        "image_locale": null
+    },
+    {
+        "titre": "FESTIVAL LA NUIT DES GRIOTS - SONA JOBARTEH à Espace Julien",
+        "date": "Le 04 avril 2026",
+        "start_date": "2026-04-04",
+        "end_date": "2026-04-04",
+        "lieu": "Espace Julien",
+        "description": "20:00",
+        "tags": [
+            "musique du monde"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/festival-la-nuit-des-griots-sona-jobarteh",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/998-illustration_id-1765881674.jpg.webp?h=e1a67f8f&itok=4hCiciWG",
+        "image_locale": null
+    },
+    {
+        "titre": "PIERRE THEVENOUX à Espace Julien",
+        "date": "Le 05 avril 2026",
+        "start_date": "2026-04-05",
+        "end_date": "2026-04-05",
+        "lieu": "Espace Julien",
+        "description": "18:00 - LIFECOACH - COMPLET",
+        "tags": [
+            "humour"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/pierre-thevenoux",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/860-illustration_id-1738248398.jpg.webp?h=cfbdf4f3&itok=_h4PiFhY",
+        "image_locale": null
+    },
+    {
+        "titre": "LUJIPEKA à Espace Julien",
+        "date": "Le 15 avril 2026",
+        "start_date": "2026-04-15",
+        "end_date": "2026-04-15",
+        "lieu": "Espace Julien",
+        "description": "20:00",
+        "tags": [
+            "rap / hip-hop"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/lujipeka",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/958-illustration_id-1760537915.jpeg.webp?h=8181fd31&itok=5dp6X7ZZ",
+        "image_locale": null
+    },
+    {
+        "titre": "DYNAMITE SHAKERS à Espace Julien",
+        "date": "Le 18 avril 2026",
+        "start_date": "2026-04-18",
+        "end_date": "2026-04-18",
+        "lieu": "Espace Julien",
+        "description": "20:00",
+        "tags": [],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/dynamite-shakers",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/977-illustration_id-1763387643.PNG?h=2e111cc1&itok=x0p27PG6",
+        "image_locale": null
+    },
+    {
+        "titre": "FLORIAN LEX à Espace Julien",
+        "date": "Le 18 avril 2026",
+        "start_date": "2026-04-18",
+        "end_date": "2026-04-18",
+        "lieu": "Espace Julien",
+        "description": "20:30 - Imparfaits",
+        "tags": [
+            "humour"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/florian-lex",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/830-illustration_id-1738250514.jpg.webp?h=350ff607&itok=ZdW59G5q",
+        "image_locale": null
+    },
+    {
+        "titre": "SAMUEL BAMBI à Espace Julien",
+        "date": "Le 21 avril 2026",
+        "start_date": "2026-04-21",
+        "end_date": "2026-04-21",
+        "lieu": "Espace Julien",
+        "description": "20:00 - MACHINE - COMPLET",
+        "tags": [
+            "humour"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/samuel-bambi-0",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/974-illustration_id-1760345060.jpeg.webp?h=df1157c9&itok=9g6-xuVn",
+        "image_locale": null
+    },
+    {
+        "titre": "MACHINE HEAD à Espace Julien",
+        "date": "Le 23 avril 2026",
+        "start_date": "2026-04-23",
+        "end_date": "2026-04-23",
+        "lieu": "Espace Julien",
+        "description": "20:00 - COMPLET",
+        "tags": [
+            "metal"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/machine-head",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/987-illustration_id-1764000742.jpg.webp?h=3cd5e5b0&itok=IeS02e2i",
+        "image_locale": null
+    },
+    {
+        "titre": "MADAME ARTHUR ENFLAMME MARSEILLE à Espace Julien",
+        "date": "Le 24 avril 2026",
+        "start_date": "2026-04-24",
+        "end_date": "2026-04-24",
+        "lieu": "Espace Julien",
+        "description": "20:30",
+        "tags": [],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/madame-arthur-enflamme-marseille",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/988-illustration_id-1764255434.jpeg.webp?h=7f412c8f&itok=e2NpV7BY",
+        "image_locale": null
+    },
+    {
+        "titre": "[BLOCK PARTY] AMMAR 808 + RUMBLE à Espace Julien",
+        "date": "Le 25 avril 2026",
+        "start_date": "2026-04-25",
+        "end_date": "2026-04-25",
+        "lieu": "Espace Julien",
+        "description": "19:00",
+        "tags": [],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/block-party-ammar-808-rumble",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/2025-07/AMMAR%20808%20by%20%20Mateusz%20Szotta%207.jpg.webp?h=b39c5fef&itok=WGT_9ZXH",
+        "image_locale": null
+    },
+    {
+        "titre": "AIME SIMONE à Espace Julien",
+        "date": "Le 25 avril 2026",
+        "start_date": "2026-04-25",
+        "end_date": "2026-04-25",
+        "lieu": "Espace Julien",
+        "description": "20:30 - REV",
+        "tags": [
+            "pop"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/aime-simone",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/913-illustration_id-1746539225.jpg.webp?h=63bf57a8&itok=8J5kf8q0",
+        "image_locale": null
+    },
+    {
+        "titre": "L.E.J à Espace Julien",
+        "date": "Le 26 avril 2026",
+        "start_date": "2026-04-26",
+        "end_date": "2026-04-26",
+        "lieu": "Espace Julien",
+        "description": "20:00",
+        "tags": [
+            "chanson"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/lej",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/970-illustration_id-1759509625.jpg.webp?h=9e9ace07&itok=nNsg8tRK",
+        "image_locale": null
+    },
+    {
+        "titre": "JEAN-BENOIT DIALLO à Espace Julien",
+        "date": "Le 04 octobre 2026",
+        "start_date": "2026-10-04",
+        "end_date": "2026-10-04",
+        "lieu": "Espace Julien",
+        "description": "18:00 - LIBRE ARBITRE",
+        "tags": [],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/jean-benoit-diallo",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/969-illustration_id-1759739611.jpg.webp?h=9c9838c3&itok=st0kbTHd",
+        "image_locale": null
+    },
+    {
+        "titre": "VEN1 à Espace Julien",
+        "date": "Le 16 octobre 2026",
+        "start_date": "2026-10-16",
+        "end_date": "2026-10-16",
+        "lieu": "Espace Julien",
+        "description": "21:00",
+        "tags": [
+            "rap / hip-hop"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/ven1",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/930-illustration_id-1750149234.jpg.webp?h=350ff607&itok=o0nnNIKV",
+        "image_locale": null
+    },
+    {
+        "titre": "ELIES ZOGHLAMI à Espace Julien",
+        "date": "Le 18 octobre 2026",
+        "start_date": "2026-10-18",
+        "end_date": "2026-10-18",
+        "lieu": "Espace Julien",
+        "description": "18:00 - ALTREMIE",
+        "tags": [
+            "humour"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/elies-zoghlami",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/952-illustration_id-1758124528.jpg.webp?h=99d542f5&itok=tetkKZOY",
+        "image_locale": null
+    },
+    {
+        "titre": "JAZZY BAZZ à Espace Julien",
+        "date": "Le 22 octobre 2026",
+        "start_date": "2026-10-22",
+        "end_date": "2026-10-22",
+        "lieu": "Espace Julien",
+        "description": "20:00",
+        "tags": [
+            "rap / hip-hop"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/jazzy-bazz",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/915-illustration_id-1747731019.jpg.webp?h=1e66e246&itok=B9DIvGni",
+        "image_locale": null
+    },
+    {
+        "titre": "NOAM SINSEAU à Espace Julien",
+        "date": "Le 31 octobre 2026",
+        "start_date": "2026-10-31",
+        "end_date": "2026-10-31",
+        "lieu": "Espace Julien",
+        "description": "20:00 - Makoumè Superstar",
+        "tags": [],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/noam-sinseau",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/978-illustration_id-1763030761.jpeg.webp?h=bf31a503&itok=tGZDTXq0",
+        "image_locale": null
+    },
+    {
+        "titre": "LOUIS CATTELAT à Espace Julien",
+        "date": "Le 15 novembre 2026",
+        "start_date": "2026-11-15",
+        "end_date": "2026-11-15",
+        "lieu": "Espace Julien",
+        "description": "18:00",
+        "tags": [
+            "humour"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/louis-cattelat",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/954-illustration_id-1756470953.jpg.webp?h=3f4105a9&itok=L87X04EZ",
+        "image_locale": null
+    },
+    {
+        "titre": "JESSÉ à Espace Julien",
+        "date": "Le 22 novembre 2026",
+        "start_date": "2026-11-22",
+        "end_date": "2026-11-22",
+        "lieu": "Espace Julien",
+        "description": "18:00 - Message personnel",
+        "tags": [
+            "humour"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/jesse",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/951-illustration_id-1757078073.jpg.webp?h=ecf33140&itok=_OA5toc5",
+        "image_locale": null
+    },
+    {
+        "titre": "THE SHEEPDOGS à Espace Julien",
+        "date": "Le 04 décembre 2026",
+        "start_date": "2026-12-04",
+        "end_date": "2026-12-04",
+        "lieu": "Espace Julien",
+        "description": "20:00",
+        "tags": [
+            "rock"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/sheepdogs",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/982-illustration_id-1763396598.jpg.webp?h=4a3e293e&itok=GrMPv-x_",
+        "image_locale": null
+    },
+    {
+        "titre": "AMANDINE LOURDEL à Espace Julien",
+        "date": "Le 06 décembre 2026",
+        "start_date": "2026-12-06",
+        "end_date": "2026-12-06",
+        "lieu": "Espace Julien",
+        "description": "18:00 - Renversée",
+        "tags": [
+            "humour"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/amandine-lourdel",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/986-illustration_id-1763396415.jpeg.webp?h=57024e64&itok=VYwnzCmS",
+        "image_locale": null
+    },
+    {
+        "titre": "JEREMY CHARBONNEL à Espace Julien",
+        "date": "Le 13 décembre 2026",
+        "start_date": "2026-12-13",
+        "end_date": "2026-12-13",
+        "lieu": "Espace Julien",
+        "description": "18:00 - SEUL TOUT",
+        "tags": [
+            "humour"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/jeremy-charbonnel",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/989-illustration_id-1763976891.jpeg.webp?h=df1157c9&itok=y9YbVYjd",
+        "image_locale": null
+    },
+    {
+        "titre": "SOFIA BELABBES à Espace Julien",
+        "date": "Le 30 janvier 2027",
+        "start_date": "2027-01-30",
+        "end_date": "2027-01-30",
+        "lieu": "Espace Julien",
+        "description": "20:00 - KETCHUP MAYO",
+        "tags": [
+            "humour"
+        ],
+        "categorie": "Concert",
+        "lien": "https://espace-julien.com/agenda/sofia-belabbes",
+        "image_url": "https://espace-julien.com/sites/espacejulien/files/styles/16x9_1920/public/import_billetterie/984-illustration_id-1763396879.jpeg.webp?h=cf390121&itok=WtrzdwAC",
+        "image_locale": null
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "nom_original": "L'Intermédiaire Live",
+        "adresse_complete": "63 Pl. Jean Jaurès, 13006 Marseille",
+        "latitude": 43.29437165673087,
+        "longitude": 5.38674473741274,
+        "status": "OK"
+    },
+    {
+        "nom_original": "La Murisserie",
+        "adresse_complete": "44 Cr Julien, 13006 Marseille",
+        "latitude": 43.29472801449531,
+        "longitude": 5.382822254610848,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Le Chat Perché",
+        "adresse_complete": "17 Rue Pastoret, 13006 Marseille",
+        "latitude": 43.293967834033104,
+        "longitude": 5.3849251373592395,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Le Vice Versa",
+        "adresse_complete": "40 Rue des Trois Rois, 13006 Marseille",
+        "latitude": 43.29389553806656,
+        "longitude": 5.385242190029215,
+        "status": "OK"
+    },
+    {
+        "nom_original": "La Brasserie Communale",
+        "adresse_complete": "57 Cr Julien, 13006 Marseille",
+        "latitude": 43.293897114798554,
+        "longitude": 5.383633635517673,
+        "status": "OK"
+    }
+]
