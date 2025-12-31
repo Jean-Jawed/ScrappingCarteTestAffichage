@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liste des Événements - Marseille</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 
 <body>
@@ -22,51 +23,50 @@
     </header>
 
     <div class="container">
-        <div class="search-bar">
-            <div class="search-container" style="max-width:600px; margin:0 auto;">
-                <input type="text" id="tag-search" class="search-input"
-                    placeholder="Rechercher un événement, lieu, tag...">
-                <div id="autocomplete-list" class="autocomplete-suggestions"></div>
-                <div id="active-search-tags" class="search-tag-container"></div>
-            </div>
-        </div>
-
-        <div class="map-filters"
-            style="position: static; transform: none; margin-bottom: 2rem; box-shadow: none; background: transparent; display:flex; flex-direction:column; align-items:center;">
-            <div class="filter-row">
-                <button class="filter-btn active" data-period="all">Tous</button>
-                <button class="filter-btn" data-period="today">Aujourd'hui</button>
-                <button class="filter-btn" data-period="tomorrow">Demain</button>
-                <button class="filter-btn" data-period="week">Cette semaine</button>
-                <button class="filter-btn" data-period="month" id="btn-month">Ce mois</button>
-                <button class="filter-btn" data-period="next_month" id="btn-next-month">Mois prochain</button>
-                <button class="filter-btn" data-period="custom" id="btn-custom">Dates personnalisées</button>
-            </div>
-
-            <div class="filter-row secondary-filters" style="justify-content: center;">
-                <div class="date-range-picker" id="date-picker-wrapper"
-                    style="opacity: 0.5; pointer-events: none; background:white; border:1px solid #e2e8f0;">
-                    <input type="date" id="date-start" class="date-input">
-                    <span class="separator">à</span>
-                    <input type="date" id="date-end" class="date-input">
+        <div class="filters-wrapper" id="filters-wrapper">
+            <button class="collapse-btn" id="collapse-btn" title="Réduire/Agrandir">-</button>
+            <div class="filters-content">
+                <div class="search-bar">
+                    <div class="search-container" style="max-width:600px; margin:0 auto;">
+                        <input type="text" id="tag-search" class="search-input"
+                            placeholder="Rechercher un événement, lieu, tag...">
+                        <div id="autocomplete-list" class="autocomplete-suggestions"></div>
+                        <div id="active-search-tags" class="search-tag-container"></div>
+                    </div>
                 </div>
 
-                <label class="toggle-switch" title="Inclure les événements passés">
-                    <input type="checkbox" id="toggle-past">
-                    <span class="slider"></span>
-                    <span class="label-text">Inclure passés</span>
-                </label>
+                <div class="map-filters"
+                    style="position: static; transform: none; margin-bottom: 2rem; box-shadow: none; background: transparent; display:flex; flex-direction:column; align-items:center;">
+                    <div class="filter-row">
+                        <button class="filter-btn active" data-period="all">Tous</button>
+                        <button class="filter-btn" data-period="today">Aujourd'hui</button>
+                        <button class="filter-btn" data-period="tomorrow">Demain</button>
+                        <button class="filter-btn" data-period="week">Cette semaine</button>
+                        <button class="filter-btn" data-period="month" id="btn-month">Ce mois</button>
+                        <button class="filter-btn" data-period="next_month" id="btn-next-month">Mois prochain</button>
+                        <button class="filter-btn" data-period="custom" id="btn-custom">Dates personnalisées</button>
+                    </div>
 
-                <label class="toggle-switch" title="L'événement doit être entièrement inclus dans la période">
-                    <input type="checkbox" id="toggle-exclusive">
-                    <span class="slider"></span>
-                    <span class="label-text">Dates exactes</span>
-                </label>
+                    <div class="filter-row secondary-filters" style="justify-content: center;">
+                        <div class="date-range-picker" id="date-picker-wrapper"
+                            style="opacity: 0.5; pointer-events: none; background:white; border:1px solid #e2e8f0;">
+                            <input type="date" id="date-start" class="date-input">
+                            <span class="separator">à</span>
+                            <input type="date" id="date-end" class="date-input">
+                        </div>
 
-                <div class="date-range-picker" style="background:white; border:1px solid #e2e8f0;">
-                    <input type="date" id="date-start" class="date-input">
-                    <span class="separator">à</span>
-                    <input type="date" id="date-end" class="date-input">
+                        <label class="toggle-switch" title="Inclure les événements passés">
+                            <input type="checkbox" id="toggle-past">
+                            <span class="slider"></span>
+                            <span class="label-text">Inclure passés</span>
+                        </label>
+
+                        <label class="toggle-switch" title="L'événement doit être entièrement inclus dans la période">
+                            <input type="checkbox" id="toggle-exclusive">
+                            <span class="slider"></span>
+                            <span class="label-text">Dates exactes</span>
+                        </label>
+                    </div>
                 </div>
             </div>
         </div>
@@ -78,7 +78,8 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 EventMarseille. Tous droits réservés.</p>
+            <p>&copy; 2025 Tous droits réservés. Par <a href="https://javed.fr" target="_blank"
+                    style="text-decoration: underline;">Jawed</a></p>
         </div>
     </footer>
 
@@ -268,6 +269,19 @@
 
             dStart.addEventListener('change', handleDateChange);
             dEnd.addEventListener('change', handleDateChange);
+
+            // Collapse Logic
+            const collapseBtn = document.getElementById('collapse-btn');
+            const filtersWrapper = document.getElementById('filters-wrapper');
+
+            collapseBtn.addEventListener('click', () => {
+                filtersWrapper.classList.toggle('filters-collapsed');
+                if (filtersWrapper.classList.contains('filters-collapsed')) {
+                    collapseBtn.textContent = '+';
+                } else {
+                    collapseBtn.textContent = '-';
+                }
+            });
         });
     </script>
 </body>
