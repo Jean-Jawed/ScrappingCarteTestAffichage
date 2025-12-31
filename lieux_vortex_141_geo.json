@@ -1,0 +1,154 @@
+[
+    {
+        "nom_original": "Le Molotov",
+        "adresse_originale": "3 pl Paul Cézanne 6º",
+        "adresse_complete": "3 pl Paul Cézanne 6º",
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé (Adresse originale conservée)"
+    },
+    {
+        "nom_original": "Leda Atomica",
+        "adresse_originale": "63 rue St Pierre 5º",
+        "adresse_complete": "63 rue St Pierre 5º",
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé (Adresse originale conservée)"
+    },
+    {
+        "nom_original": "L'Intermédiaire",
+        "adresse_originale": "63 pl Jean Jaurès 6º",
+        "adresse_complete": "63 pl Jean Jaurès 6º",
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé (Adresse originale conservée)"
+    },
+    {
+        "nom_original": "La Maison Hantée",
+        "adresse_originale": "10 rue Vian 6º",
+        "adresse_complete": "10 rue Vian 6º",
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé (Adresse originale conservée)"
+    },
+    {
+        "nom_original": "Sing or die",
+        "adresse_originale": "56 rue Léon Bourgeois 1er",
+        "adresse_complete": "Sing or die, 56, Rue Léon Bourgeois, Saint-Charles, Marseille 1er Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13001, France",
+        "latitude": 43.3017091,
+        "longitude": 5.3919902,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Bar de la Plaine",
+        "adresse_originale": null,
+        "adresse_complete": "Le Bar de la Plaine, Rue Saint-Pierre, Le Camas, Marseille 5e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13006, France",
+        "latitude": 43.2939891,
+        "longitude": 5.3868009,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Lollipop",
+        "adresse_originale": "2 bd Théodore Thurner 6º",
+        "adresse_complete": "2 bd Théodore Thurner 6º",
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé (Adresse originale conservée)"
+    },
+    {
+        "nom_original": "Les 9 Salopards",
+        "adresse_originale": "2 rue crudère 6º",
+        "adresse_complete": "2 rue crudère 6º",
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé (Adresse originale conservée)"
+    },
+    {
+        "nom_original": "Zoumaï",
+        "adresse_originale": "7 cours Gouffé 6º",
+        "adresse_complete": "7 cours Gouffé 6º",
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé (Adresse originale conservée)"
+    },
+    {
+        "nom_original": "Casa Consolat",
+        "adresse_originale": "1 rue Consolat 1er",
+        "adresse_complete": "Casa Consolat, 1, Rue Consolat, Le Chapitre, Marseille 1er Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13001, France",
+        "latitude": 43.2996555,
+        "longitude": 5.3860854,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Le Mounguy",
+        "adresse_originale": "10 rue Consolat 1er",
+        "adresse_complete": "10 rue Consolat 1er",
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé (Adresse originale conservée)"
+    },
+    {
+        "nom_original": "Conservatoire Pierre Barbizet",
+        "adresse_originale": null,
+        "adresse_complete": "Conservatoire National à Rayonnement Régional Pierre Barbizet, Rue Sénac de Meilhan, La Plaine, Marseille 1er Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13001, France",
+        "latitude": 43.2958265,
+        "longitude": 5.3838234,
+        "status": "OK"
+    },
+    {
+        "nom_original": "La Voie Maltée",
+        "adresse_originale": null,
+        "adresse_complete": "La Voie Maltée, Rue Crudère, La Plaine, Marseille 6e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13006, France",
+        "latitude": 43.2943766,
+        "longitude": 5.384108,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Brasserie Soiffe",
+        "adresse_originale": "57 cours Julien 5",
+        "adresse_complete": "57 cours Julien 5",
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé (Adresse originale conservée)"
+    },
+    {
+        "nom_original": "Salle gueule",
+        "adresse_originale": "8 rue d'Italie 6º",
+        "adresse_complete": "8 rue d'Italie 6º",
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé (Adresse originale conservée)"
+    },
+    {
+        "nom_original": "Data",
+        "adresse_originale": "44 rue des bons enfants 6º",
+        "adresse_complete": "44 rue des bons enfants 6º",
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé (Adresse originale conservée)"
+    },
+    {
+        "nom_original": "Maloca",
+        "adresse_originale": "47 rue Fortuné Jourdan 3º",
+        "adresse_complete": "47 rue Fortuné Jourdan 3º",
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé (Adresse originale conservée)"
+    },
+    {
+        "nom_original": "La Dar/centre social autogéré",
+        "adresse_originale": "127 rue d'Aubagne 6º",
+        "adresse_complete": "127 rue d'Aubagne 6º",
+        "latitude": null,
+        "longitude": null,
+        "status": "Non trouvé (Adresse originale conservée)"
+    },
+    {
+        "nom_original": "Place Bargemon",
+        "adresse_originale": null,
+        "adresse_complete": "Place Bargemon, Grand Rue, Hôtel de Ville, Marseille 2e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13002, France",
+        "latitude": 43.2976722,
+        "longitude": 5.3704711,
+        "status": "OK"
+    }
+]

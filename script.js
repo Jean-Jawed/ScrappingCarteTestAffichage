@@ -25,14 +25,23 @@ class EventManager {
             const manifest = await manifestRes.json();
 
             // 2. Load all event files in parallel
-            const eventPromises = manifest.events.map(file =>
-                fetch(file).then(res => res.json())
-            );
+            // 2. Load all event files in parallel
+            // We verify that the file exists and is valid, otherwise we ignore it
+            const safeFetch = (file) =>
+                fetch(file)
+                    .then(res => {
+                        if (!res.ok) throw new Error(`Status ${res.status}`);
+                        return res.json();
+                    })
+                    .catch(e => {
+                        console.warn(`File ignored (not found or invalid): ${file}`, e);
+                        return [];
+                    });
+
+            const eventPromises = manifest.events.map(file => safeFetch(file));
 
             // 3. Load all location files in parallel
-            const locationPromises = manifest.locations.map(file =>
-                fetch(file).then(res => res.json())
-            );
+            const locationPromises = manifest.locations.map(file => safeFetch(file));
 
             // Wait for all fetches
             const [eventsArrays, locationsArrays] = await Promise.all([
