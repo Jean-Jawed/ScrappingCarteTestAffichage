@@ -14,8 +14,10 @@ class EventManager {
             customStart: null,
             customEnd: null,
             includePast: false,
-            exclusiveMode: false
+            exclusiveMode: false,
+            tag: null // New tag filter
         };
+        this.allTags = new Set();
     }
 
     async init() {
@@ -50,8 +52,26 @@ class EventManager {
             ]);
 
             // 4. Flatten the arrays
-            this.events = eventsArrays.flat();
+            const allEvents = eventsArrays.flat();
             this.locations = locationsArrays.flat();
+
+            // 5. Deduplicate Events
+            // Strategy: Same lieu + start_date + end_date = duplicate.
+            const uniqueEvents = [];
+            const seen = new Set();
+
+            allEvents.forEach(evt => {
+                // Normalize key: Use lowercase for lieu to be safer, though user said "same lieu"
+                // strict equality might be enough if sources are consistent, but let's be robust.
+                const key = `${evt.lieu}|${evt.start_date}|${evt.end_date}`;
+                if (!seen.has(key)) {
+                    seen.add(key);
+                    uniqueEvents.push(evt);
+                }
+            });
+
+            this.events = uniqueEvents;
+            console.log(`Deduplication: Reduced ${allEvents.length} to ${this.events.length} events.`);
 
             this.mergeData();
             console.log('Data loaded:', this.mergedData.length, 'events from', manifest.events.length, 'files');
@@ -80,6 +100,30 @@ class EventManager {
                 _geo: placeInfo || null
             };
         });
+
+        this.extractUniqueTags();
+    }
+
+    extractUniqueTags() {
+        this.allTags.clear();
+        this.mergedData.forEach(evt => {
+            if (Array.isArray(evt.tags)) {
+                evt.tags.forEach(tag => this.allTags.add(tag));
+            } else if (typeof evt.tags === 'string') {
+                // Handle potential comma-separated strings just in case
+                evt.tags.split(',').forEach(t => this.allTags.add(t.trim()));
+            }
+        });
+        console.log(`Extracted ${this.allTags.size} unique tags.`);
+    }
+
+    getTagsMatching(query) {
+        if (!query) return [];
+        const lowerQ = query.toLowerCase();
+        // Convert Set to Array, filter, and sort
+        return Array.from(this.allTags)
+            .filter(tag => tag.toLowerCase().includes(lowerQ))
+            .sort();
     }
 
     // --- Date Helpers ---
@@ -145,6 +189,10 @@ class EventManager {
         this.filterState.exclusiveMode = bool;
     }
 
+    setTagFilter(tag) {
+        this.filterState.tag = tag;
+    }
+
     // --- Core Logic ---
 
     getFilteredEvents() {
@@ -207,13 +255,27 @@ class EventManager {
             if ((this.filterState.period === 'custom') && (!filterStart || !filterEnd)) return true;
 
             // B. Range Check
+            let dateMatch = false;
             if (this.filterState.exclusiveMode) {
                 // EXCLUSIVE: Event must start AFTER filterStart AND end BEFORE filterEnd
-                return evt.start_date >= filterStart && evt.end_date <= filterEnd;
+                dateMatch = evt.start_date >= filterStart && evt.end_date <= filterEnd;
             } else {
                 // INCLUSIVE (Overlap): Event ends AFTER filterStart AND starts BEFORE filterEnd
-                return evt.end_date >= filterStart && evt.start_date <= filterEnd;
+                dateMatch = evt.end_date >= filterStart && evt.start_date <= filterEnd;
             }
+            if (!dateMatch) return false;
+
+            // C. Tag Check
+            if (this.filterState.tag) {
+                if (!evt.tags) return false;
+                if (Array.isArray(evt.tags)) {
+                    if (!evt.tags.includes(this.filterState.tag)) return false;
+                } else if (typeof evt.tags === 'string') {
+                    if (!evt.tags.includes(this.filterState.tag)) return false;
+                }
+            }
+
+            return true;
         });
     }
 

@@ -4,12 +4,14 @@
         "evenements_espaceju.json",
         "evenements_insta.json",
         "evenements_vortex_141.json",
-        "evenements_vortex_142.json"
+        "evenements_vortex_142.json",
+        "evenements_ra.json"
     ],
     "locations": [
         "lieux_geo.json",
         "lieux_insta.json",
         "lieux_vortex_141_geo.json",
-        "lieux_vortex_142_geo.json"
+        "lieux_vortex_142_geo.json",
+        "lieux_ra_geo.json"
     ]
 }

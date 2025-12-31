@@ -37,17 +37,17 @@ PROJET : CENTRALISATION ÉVÉNEMENTS CULTURELS MARSEILLE
 03 | FETCHING (API / JSON)
      Sources : Shotgun, Dice, Resident Advisor, ConcertAndCo.
      Méthode : Identification des endpoints API via l'inspecteur réseau.
-     État : À FAIRE.
+     État : À FAIRE - Test RA très compliqué
 
 04 | FETCHING (Salles)
      Sources : Molotov, Espace Julien.
      Méthode : Extraction ciblée des calendriers web.
-     État : À FAIRE.
+     État : Espace Ju ok - Molotov à faire
 
 05 | AUTOMATISATION RÉSEAUX SOCIAUX
      Sources : Instagram (Mûrisserie, etc.), Facebook (Intermédiaire).
      Méthode : Utilisation d'extracteurs tiers (Apify, Lobstr, Gridpanel).
-     État : EN RECHERCHE.
+     État : Apify Murisserie-ChatPerché-BrassComm-Inter-ViceVersa ok
 
 --- 3. NOTES IMPORTANTES (DÉCEMBRE 2025) ---
 

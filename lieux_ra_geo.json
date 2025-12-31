@@ -1,0 +1,82 @@
+[
+    {
+        "nom_original": "Dock des Suds",
+        "adresse_originale": "12 Rue Urbain V, 13002 Marseille",
+        "adresse_complete": "12 Rue Urbain V, 13002 Marseille",
+        "latitude": 43.31502379348482,
+        "longitude": 5.367693522088917,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Le Chapiteau",
+        "adresse_originale": null,
+        "adresse_complete": "Le Chapiteau - La Belle-de-Mai, Traverse Notre-Dame-du-Bon-Secours, La Belle de Mai, Marseille 3e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13003, France",
+        "latitude": 43.3147095,
+        "longitude": 5.3864307,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Danceteria",
+        "adresse_originale": "18 Rue Saint-Saëns, 13001 Marseille",
+        "adresse_complete": "18 Rue Saint-Saëns, 13001 Marseille",
+        "latitude": 43.29380256777463,
+        "longitude": 5.375152910762646,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Le Bouge",
+        "adresse_originale": "21 Cr Honoré d'Estienne d'Orves, 13001 Marseille",
+        "adresse_complete": "21 Cr Honoré d'Estienne d'Orves, 13001 Marseille",
+        "latitude": 43.292624989511474,
+        "longitude": 5.373697320731927,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Cabaret Aléatoire",
+        "adresse_originale": null,
+        "adresse_complete": "Cabaret Aléatoire, Rue Intérieure, La Belle de Mai, Marseille 3e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13003, France",
+        "latitude": 43.31033788017481,
+        "longitude": 5.391120678931446,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Le Makeda",
+        "adresse_originale": "103 Rue Ferrari, 13005 Marseille",
+        "adresse_complete": "103 Rue Ferrari, 13005 Marseille",
+        "latitude": 43.29320579115484,
+        "longitude": 5.391749536341905,
+        "status": "OK"
+    },
+    {
+        "nom_original": "POP Club",
+        "adresse_originale": "141 Rte Léon Lachamp, 13009 Marseille",
+        "adresse_complete": "141 Rte Léon Lachamp, 13009 Marseille",
+        "latitude": 43.24894147699834,
+        "longitude": 5.440624271822624,
+        "status": "Non trouvé"
+    },
+    {
+        "nom_original": "Paloma Cocktail Bar",
+        "adresse_originale": "17 rue André Poggiolli, 13007 Marseille",
+        "adresse_complete": "17 rue André Poggiolli, 13007 Marseille",
+        "latitude": 43.2935898476787,
+        "longitude": 5.38529661850065,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Unité.22",
+        "adresse_originale": "22 rue Jobin, 13003 Marseille",
+        "adresse_complete": "22 rue Jobin, 13003 Marseille",
+        "latitude": 43.31062049122523,
+        "longitude": 5.3891147591618065,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Le couvent de la Cômerie",
+        "adresse_originale": "176 Rue Breteuil, 13006 Marseille",
+        "adresse_complete": "176 Rue Breteuil, 13006 Marseille",
+        "latitude": 43.2826569052696,
+        "longitude": 5.378828271743466,
+        "status": "OK"
+    }
+]
