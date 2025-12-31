@@ -23,7 +23,12 @@
 
     <div class="container">
         <div class="search-bar">
-            <input type="text" id="searchInput" class="search-input" placeholder="Rechercher un événement, un lieu...">
+            <div class="search-container" style="max-width:600px; margin:0 auto;">
+                <input type="text" id="tag-search" class="search-input"
+                    placeholder="Rechercher un événement, lieu, tag...">
+                <div id="autocomplete-list" class="autocomplete-suggestions"></div>
+                <div id="active-search-tags" class="search-tag-container"></div>
+            </div>
         </div>
 
         <div class="map-filters"
@@ -35,9 +40,17 @@
                 <button class="filter-btn" data-period="week">Cette semaine</button>
                 <button class="filter-btn" data-period="month" id="btn-month">Ce mois</button>
                 <button class="filter-btn" data-period="next_month" id="btn-next-month">Mois prochain</button>
+                <button class="filter-btn" data-period="custom" id="btn-custom">Dates personnalisées</button>
             </div>
 
             <div class="filter-row secondary-filters" style="justify-content: center;">
+                <div class="date-range-picker" id="date-picker-wrapper"
+                    style="opacity: 0.5; pointer-events: none; background:white; border:1px solid #e2e8f0;">
+                    <input type="date" id="date-start" class="date-input">
+                    <span class="separator">à</span>
+                    <input type="date" id="date-end" class="date-input">
+                </div>
+
                 <label class="toggle-switch" title="Inclure les événements passés">
                     <input type="checkbox" id="toggle-past">
                     <span class="slider"></span>
@@ -73,7 +86,16 @@
     <script>
         document.addEventListener('DOMContentLoaded', async () => {
             const grid = document.getElementById('eventsGrid');
-            const searchInput = document.getElementById('searchInput');
+
+            // Filters Elements
+            const pickerWrapper = document.getElementById('date-picker-wrapper');
+            const dStart = document.getElementById('date-start');
+            const dEnd = document.getElementById('date-end');
+
+            // Search Elements
+            const searchInput = document.getElementById('tag-search');
+            const suggestionsBox = document.getElementById('autocomplete-list');
+            const activeTagsContainer = document.getElementById('active-search-tags');
 
             // Initialize Data
             const data = await eventManager.init();
@@ -128,11 +150,74 @@
             document.getElementById('btn-month').textContent = `Ce mois : ${current}`;
             document.getElementById('btn-next-month').textContent = `Mois prochain : ${next}`;
 
-            // Search Handler
+            // Search Logic (Harmonized with Map)
+            const renderSearchTag = (val) => {
+                activeTagsContainer.innerHTML = '';
+                if (val) {
+                    const tagEl = document.createElement('div');
+                    tagEl.className = 'search-tag';
+                    tagEl.innerHTML = `${val} <span class="remove-tag">x</span>`;
+                    tagEl.querySelector('.remove-tag').addEventListener('click', () => {
+                        eventManager.setTagFilter(null);
+                        searchInput.value = '';
+                        renderSearchTag(null);
+                        refreshList();
+                    });
+                    activeTagsContainer.appendChild(tagEl);
+                    searchInput.value = '';
+                    searchInput.placeholder = 'Recherche active...';
+                } else {
+                    searchInput.placeholder = 'Rechercher un événement, lieu, tag...';
+                }
+            };
+
+            const applySearch = (val) => {
+                eventManager.setTagFilter(val);
+                suggestionsBox.style.display = 'none';
+                renderSearchTag(val);
+                refreshList();
+            };
+
             searchInput.addEventListener('input', (e) => {
-                const query = e.target.value;
-                const filtered = eventManager.searchEvents(query);
-                renderEvents(filtered);
+                const val = e.target.value;
+                if (!val) {
+                    suggestionsBox.style.display = 'none';
+                    return;
+                }
+
+                const matches = eventManager.getSuggestionsMatching(val);
+                if (matches.length > 0) {
+                    suggestionsBox.innerHTML = '';
+                    matches.forEach(item => {
+                        const div = document.createElement('div');
+                        div.className = 'autocomplete-suggestion';
+                        div.innerHTML = `<span style="font-size:0.8em; color:#999; margin-right:5px;">[${item.type}]</span> ${item.value}`;
+                        div.addEventListener('click', () => applySearch(item.value));
+                        suggestionsBox.appendChild(div);
+                    });
+                    suggestionsBox.style.display = 'block';
+                } else {
+                    suggestionsBox.style.display = 'none';
+                }
+            });
+
+            searchInput.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter') {
+                    const val = searchInput.value.trim();
+                    if (val) {
+                        applySearch(val);
+                    } else {
+                        eventManager.setTagFilter(null);
+                        renderSearchTag(null);
+                        refreshList();
+                    }
+                }
+            });
+
+            document.addEventListener('click', (e) => {
+                if (!e.target.closest('.search-container')) {
+                    suggestionsBox.style.display = 'none';
+                }
             });
 
             // Filter Handlers
@@ -143,7 +228,21 @@
                     e.target.classList.add('active');
 
                     const period = e.target.dataset.period;
-                    eventManager.setFilterPeriod(period);
+
+                    if (period === 'custom') {
+                        pickerWrapper.style.opacity = '1';
+                        pickerWrapper.style.pointerEvents = 'auto';
+                        if (dStart.value && dEnd.value) {
+                            eventManager.setCustomDates(dStart.value, dEnd.value);
+                        } else {
+                            eventManager.setFilterPeriod('custom');
+                        }
+                    } else {
+                        pickerWrapper.style.opacity = '0.5';
+                        pickerWrapper.style.pointerEvents = 'none';
+                        eventManager.setFilterPeriod(period);
+                    }
+
                     refreshList();
                 });
             });
@@ -160,12 +259,8 @@
             });
 
             // 3. Date Inputs
-            const dStart = document.getElementById('date-start');
-            const dEnd = document.getElementById('date-end');
-
             const handleDateChange = () => {
                 if (dStart.value && dEnd.value) {
-                    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
                     eventManager.setCustomDates(dStart.value, dEnd.value);
                     refreshList();
                 }

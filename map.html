@@ -28,8 +28,10 @@
         <!-- Floating Filters -->
         <div class="map-filters">
             <div class="search-container">
-                <input type="text" id="tag-search" class="search-input-map" placeholder="Filtrer par tag...">
+                <input type="text" id="tag-search" class="search-input-map"
+                    placeholder="Rechercher un événement, lieu, tag...">
                 <div id="autocomplete-list" class="autocomplete-suggestions"></div>
+                <div id="active-search-tags" class="search-tag-container"></div>
             </div>
 
             <div class="filter-row">
@@ -39,9 +41,16 @@
                 <button class="filter-btn" data-period="week">Cette semaine</button>
                 <button class="filter-btn" data-period="month" id="btn-month">Ce mois</button>
                 <button class="filter-btn" data-period="next_month" id="btn-next-month">Mois prochain</button>
+                <button class="filter-btn" data-period="custom" id="btn-custom">Dates personnalisées</button>
             </div>
 
             <div class="filter-row secondary-filters">
+                <div class="date-range-picker" id="date-picker-wrapper" style="opacity: 0.5; pointer-events: none;">
+                    <input type="date" id="date-start" class="date-input">
+                    <span class="separator">à</span>
+                    <input type="date" id="date-end" class="date-input">
+                </div>
+
                 <label class="toggle-switch" title="Inclure les événements passés">
                     <input type="checkbox" id="toggle-past">
                     <span class="slider"></span>
@@ -53,12 +62,6 @@
                     <span class="slider"></span>
                     <span class="label-text">Dates exactes</span>
                 </label>
-
-                <div class="date-range-picker">
-                    <input type="date" id="date-start" class="date-input">
-                    <span class="separator">à</span>
-                    <input type="date" id="date-end" class="date-input">
-                </div>
             </div>
         </div>
 
@@ -163,6 +166,10 @@
             document.getElementById('btn-next-month').textContent = `Mois prochain : ${next}`;
 
             // Filter Handlers
+            const pickerWrapper = document.getElementById('date-picker-wrapper');
+            const dStart = document.getElementById('date-start');
+            const dEnd = document.getElementById('date-end');
+
             // 1. Buttons
             document.querySelectorAll('.filter-btn').forEach(btn => {
                 btn.addEventListener('click', (e) => {
@@ -170,7 +177,25 @@
                     e.target.classList.add('active');
 
                     const period = e.target.dataset.period;
-                    eventManager.setFilterPeriod(period);
+
+                    // UI Logic for Custom Mode
+                    if (period === 'custom') {
+                        pickerWrapper.style.opacity = '1';
+                        pickerWrapper.style.pointerEvents = 'auto';
+                        // If dates already set, use them
+                        if (dStart.value && dEnd.value) {
+                            eventManager.setCustomDates(dStart.value, dEnd.value);
+                        } else {
+                            // Don't filter yet if dates are empty? Or default to today?
+                            // Let's just set mode to custom but if null dates it shows all (logic in script.js)
+                            eventManager.setFilterPeriod('custom');
+                        }
+                    } else {
+                        pickerWrapper.style.opacity = '0.5';
+                        pickerWrapper.style.pointerEvents = 'none';
+                        eventManager.setFilterPeriod(period);
+                    }
+
                     refreshMap();
                 });
             });
@@ -187,13 +212,8 @@
             });
 
             // 3. Date Inputs
-            const dStart = document.getElementById('date-start');
-            const dEnd = document.getElementById('date-end');
-
             const handleDateChange = () => {
                 if (dStart.value && dEnd.value) {
-                    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-
                     eventManager.setCustomDates(dStart.value, dEnd.value);
                     refreshMap();
                 }
@@ -205,29 +225,51 @@
             // 4. Tag Search / Autocomplete
             const searchInput = document.getElementById('tag-search');
             const suggestionsBox = document.getElementById('autocomplete-list');
+            const activeTagsContainer = document.getElementById('active-search-tags');
+
+            const renderSearchTag = (val) => {
+                activeTagsContainer.innerHTML = '';
+                if (val) {
+                    const tagEl = document.createElement('div');
+                    tagEl.className = 'search-tag';
+                    tagEl.innerHTML = `${val} <span class="remove-tag">x</span>`;
+                    tagEl.querySelector('.remove-tag').addEventListener('click', () => {
+                        eventManager.setTagFilter(null);
+                        searchInput.value = '';
+                        renderSearchTag(null);
+                        refreshMap();
+                    });
+                    activeTagsContainer.appendChild(tagEl);
+                    searchInput.value = ''; // clear input as tag is active
+                    searchInput.placeholder = 'Recherche active...';
+                } else {
+                    searchInput.placeholder = 'Rechercher un événement, lieu, tag...';
+                }
+            };
+
+            const applySearch = (val) => {
+                eventManager.setTagFilter(val);
+                suggestionsBox.style.display = 'none';
+                renderSearchTag(val);
+                refreshMap();
+            };
 
             searchInput.addEventListener('input', (e) => {
                 const val = e.target.value;
                 if (!val) {
                     suggestionsBox.style.display = 'none';
-                    eventManager.setTagFilter(null);
-                    refreshMap();
-                    return;
+                    return; // Don't clear filter here, wait for manual clear or empty Enter
                 }
 
-                const matches = eventManager.getTagsMatching(val);
+                const matches = eventManager.getSuggestionsMatching(val);
                 if (matches.length > 0) {
                     suggestionsBox.innerHTML = '';
-                    matches.forEach(tag => {
+                    matches.forEach(item => {
                         const div = document.createElement('div');
                         div.className = 'autocomplete-suggestion';
-                        div.textContent = tag;
-                        div.addEventListener('click', () => {
-                            searchInput.value = tag;
-                            eventManager.setTagFilter(tag);
-                            suggestionsBox.style.display = 'none';
-                            refreshMap();
-                        });
+                        div.innerHTML = `<span style="font-size:0.8em; color:#999; margin-right:5px;">[${item.type}]</span> ${item.value}`;
+
+                        div.addEventListener('click', () => applySearch(item.value));
                         suggestionsBox.appendChild(div);
                     });
                     suggestionsBox.style.display = 'block';
@@ -235,6 +277,23 @@
                     suggestionsBox.style.display = 'none';
                 }
             });
+
+            // Enter key support
+            searchInput.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter') {
+                    const val = searchInput.value.trim();
+                    if (val) {
+                        applySearch(val);
+                    } else {
+                        // If empty enter, clear search?
+                        eventManager.setTagFilter(null);
+                        renderSearchTag(null);
+                        refreshMap();
+                    }
+                }
+            });
+
+            // Re-render tag on init if needed (not persisted currently)
 
             // Hide suggestions when clicking outside
             document.addEventListener('click', (e) => {

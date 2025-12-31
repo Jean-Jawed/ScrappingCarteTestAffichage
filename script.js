@@ -15,9 +15,10 @@ class EventManager {
             customEnd: null,
             includePast: false,
             exclusiveMode: false,
-            tag: null // New tag filter
+            searchQuery: null // Renamed from 'tag' to be generic
         };
         this.allTags = new Set();
+        this.uniquePlaces = new Set();
     }
 
     async init() {
@@ -106,24 +107,40 @@ class EventManager {
 
     extractUniqueTags() {
         this.allTags.clear();
+        this.uniquePlaces.clear();
+
         this.mergedData.forEach(evt => {
+            // Tags
             if (Array.isArray(evt.tags)) {
                 evt.tags.forEach(tag => this.allTags.add(tag));
             } else if (typeof evt.tags === 'string') {
-                // Handle potential comma-separated strings just in case
                 evt.tags.split(',').forEach(t => this.allTags.add(t.trim()));
             }
+
+            // Places
+            if (evt.lieu) {
+                this.uniquePlaces.add(evt.lieu);
+            }
         });
-        console.log(`Extracted ${this.allTags.size} unique tags.`);
+        console.log(`Extracted ${this.allTags.size} tags and ${this.uniquePlaces.size} places.`);
     }
 
-    getTagsMatching(query) {
+    getSuggestionsMatching(query) {
         if (!query) return [];
         const lowerQ = query.toLowerCase();
-        // Convert Set to Array, filter, and sort
-        return Array.from(this.allTags)
+
+        const tags = Array.from(this.allTags)
             .filter(tag => tag.toLowerCase().includes(lowerQ))
-            .sort();
+            .sort()
+            .map(t => ({ type: 'Tag', value: t })); // Add type for UI if needed
+
+        const places = Array.from(this.uniquePlaces)
+            .filter(place => place.toLowerCase().includes(lowerQ))
+            .sort()
+            .map(p => ({ type: 'Lieu', value: p }));
+
+        // Return mixed results
+        return [...places, ...tags];
     }
 
     // --- Date Helpers ---
@@ -189,8 +206,8 @@ class EventManager {
         this.filterState.exclusiveMode = bool;
     }
 
-    setTagFilter(tag) {
-        this.filterState.tag = tag;
+    setTagFilter(query) {
+        this.filterState.searchQuery = query;
     }
 
     // --- Core Logic ---
@@ -248,15 +265,21 @@ class EventManager {
                 if (evt.end_date < todayStr) return false;
             }
 
-            // If periods is 'all' and no custom range, we just returned based on past check
-            if (this.filterState.period === 'all') return true;
+            // If periods is 'all' and no custom range, we still need to check Tag/Search later
+            // logic below handles dates, if 'all' we skip date check but keep exclusive/past checks if needed?
+            // Actually: "All" usually means ANY date.
+            // But we must NOT return true immediately if we want to check SearchQuery.
+            let skipDateCheck = false;
+            if (this.filterState.period === 'all') skipDateCheck = true;
 
             // If custom range is incomplete, treat as 'all' (or block?) -> treat as all for now
             if ((this.filterState.period === 'custom') && (!filterStart || !filterEnd)) return true;
 
             // B. Range Check
             let dateMatch = false;
-            if (this.filterState.exclusiveMode) {
+            if (skipDateCheck) {
+                dateMatch = true;
+            } else if (this.filterState.exclusiveMode) {
                 // EXCLUSIVE: Event must start AFTER filterStart AND end BEFORE filterEnd
                 dateMatch = evt.start_date >= filterStart && evt.end_date <= filterEnd;
             } else {
@@ -265,14 +288,32 @@ class EventManager {
             }
             if (!dateMatch) return false;
 
-            // C. Tag Check
-            if (this.filterState.tag) {
-                if (!evt.tags) return false;
-                if (Array.isArray(evt.tags)) {
-                    if (!evt.tags.includes(this.filterState.tag)) return false;
-                } else if (typeof evt.tags === 'string') {
-                    if (!evt.tags.includes(this.filterState.tag)) return false;
+            if (!dateMatch) return false;
+
+            // C. Global Search Check (Name, Place, Tag, Description)
+            if (this.filterState.searchQuery) {
+                const q = this.filterState.searchQuery.toLowerCase();
+                let match = false;
+
+                // 1. Title
+                if (evt.titre && evt.titre.toLowerCase().includes(q)) match = true;
+
+                // 2. Place
+                if (!match && evt.lieu && evt.lieu.toLowerCase().includes(q)) match = true;
+
+                // 3. Tags
+                if (!match && evt.tags) {
+                    if (Array.isArray(evt.tags)) {
+                        if (evt.tags.some(t => t.toLowerCase().includes(q))) match = true;
+                    } else if (typeof evt.tags === 'string') {
+                        if (evt.tags.toLowerCase().includes(q)) match = true;
+                    }
                 }
+
+                // 4. Description (Optional, can be slow/noisy)
+                // if (!match && evt.description && evt.description.toLowerCase().includes(q)) match = true;
+
+                if (!match) return false;
             }
 
             return true;
