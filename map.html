@@ -127,43 +127,87 @@
                     if (group.length === 1) {
                         // Single Event
                         const evt = group[0];
-                        const marker = L.marker([lat, lon])
-                            .bindPopup(`
-                                <div style="min-width: 200px;">
-                                    <h3 style="margin:0 0 5px 0; color: #023e8a;">${evt.titre}</h3>
-                                    <p style="margin:0 0 5px 0; font-size: 0.9em; color: #666;">${evt.date}</p>
-                                    <p style="margin:0 0 10px 0; font-weight: 500;">${evt.lieu}</p>
-                                    <img src="${evt.image_url}" style="width:100%; height:100px; object-fit:cover; border-radius: 4px; margin-bottom: 5px;" onerror="this.style.display='none'">
-                                    <a href="${evt.lien}" target="_blank" style="display:block; text-align:center; background:#0077b6; color:white; padding:5px; border-radius:4px; text-decoration:none; font-size: 0.9em;">Voir détails</a>
-                                </div>
-                            `);
+
+                        // Build popup with conditional link button
+                        let popupHTML = `
+                            <div style="min-width: 200px;">
+                                <h3 style="margin:0 0 5px 0; color: #023e8a;">${evt.titre}</h3>
+                                <p style="margin:0 0 5px 0; font-size: 0.9em; color: #666;">${evt.date}</p>
+                                <p style="margin:0 0 10px 0; font-weight: 500;">${evt.lieu}</p>
+                                <img src="${evt.image_url}" style="width:100%; height:100px; object-fit:cover; border-radius: 4px; margin-bottom: 5px;" onerror="this.style.display='none'">`;
+
+                        // Only add link button if lien exists and is not empty
+                        if (evt.lien && evt.lien.trim() !== '') {
+                            popupHTML += `<a href="${evt.lien}" target="_blank" style="display:block; text-align:center; background:#0077b6; color:white; padding:5px; border-radius:4px; text-decoration:none; font-size: 0.9em;">Voir détails</a>`;
+                        }
+
+                        popupHTML += `</div>`;
+
+                        const marker = L.marker([lat, lon]).bindPopup(popupHTML);
                         markers.addLayer(marker);
                     } else {
                         // Multi Event
-                        let popupContent = `<div style="min-width: 250px;"><h3 style="margin-bottom:10px; color:#023e8a;">${firstEvt.lieu} : ${group.length} événements</h3><div class="multi-event-list">`;
+                        // Construct DOM elements to allow event listeners (click)
+                        const container = document.createElement('div');
+                        container.style.minWidth = '250px';
 
-                        // Show top 3
-                        const slice = group.slice(0, 3);
-                        slice.forEach(evt => {
-                            popupContent += `
-                                <div class="multi-event-item">
-                                    <h4 style="margin:0 0 2px 0; font-size:1em;">${evt.titre}</h4>
-                                    <p style="margin:0; font-size: 0.8em; color: #666;">${evt.date}</p>
-                                    <a href="${evt.lien}" target="_blank" style="font-size: 0.8em; color:#0077b6;">Voir</a>
-                                </div>
-                             `;
+                        const header = document.createElement('h3');
+                        header.style.marginBottom = '10px';
+                        header.style.color = '#023e8a';
+                        header.textContent = `${firstEvt.lieu} : ${group.length} événements`;
+                        container.appendChild(header);
+
+                        const listContainer = document.createElement('div');
+                        listContainer.className = 'multi-event-list';
+                        container.appendChild(listContainer);
+
+                        // Render all events, hide those after index 2 (== 3rd item)
+                        group.forEach((evt, index) => {
+                            const itemDiv = document.createElement('div');
+                            itemDiv.className = 'multi-event-item';
+
+                            if (index >= 3) {
+                                itemDiv.style.display = 'none';
+                                itemDiv.classList.add('hidden-event');
+                            }
+
+                            // Build item content with conditional link
+                            let itemHTML = `
+                                <h4 style="margin:0 0 2px 0; font-size:1em;">${evt.titre}</h4>
+                                <p style="margin:0; font-size: 0.8em; color: #666;">${evt.date}</p>`;
+
+                            // Only add link if lien exists and is not empty
+                            if (evt.lien && evt.lien.trim() !== '') {
+                                itemHTML += `<a href="${evt.lien}" target="_blank" style="font-size: 0.8em; color:#0077b6;">Voir</a>`;
+                            }
+
+                            itemDiv.innerHTML = itemHTML;
+                            listContainer.appendChild(itemDiv);
                         });
 
-                        popupContent += `</div>`;
-
+                        // "Show More" interaction
                         if (group.length > 3) {
-                            popupContent += `<p style="text-align:center; margin-top:5px; font-style:italic; font-size:0.9em;">et ${group.length - 3} autres...</p>`;
+                            const showMoreBtn = document.createElement('p');
+                            showMoreBtn.style.textAlign = 'center';
+                            showMoreBtn.style.marginTop = '5px';
+                            showMoreBtn.style.fontStyle = 'italic';
+                            showMoreBtn.style.fontSize = '0.9em';
+                            showMoreBtn.style.cursor = 'pointer';
+                            showMoreBtn.style.color = '#0077b6';
+                            showMoreBtn.style.textDecoration = 'underline';
+                            showMoreBtn.textContent = `et ${group.length - 3} autres... (Voir tout)`;
+
+                            showMoreBtn.onclick = (e) => {
+                                const hiddenItems = listContainer.querySelectorAll('.hidden-event');
+                                hiddenItems.forEach(el => el.style.display = 'block');
+                                showMoreBtn.remove();
+                            };
+
+                            container.appendChild(showMoreBtn);
                         }
-                        popupContent += `</div>`;
 
                         const marker = L.marker([lat, lon])
-                            // Optional: Use a different icon color for multi-events
-                            .bindPopup(popupContent);
+                            .bindPopup(container);
                         markers.addLayer(marker);
                     }
                 });

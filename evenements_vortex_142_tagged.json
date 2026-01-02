@@ -996,9 +996,9 @@
         "image_locale": null
     },
     {
-        "titre": "PIERRE BARBIZET à DATA",
+        "titre": "Electroacoustique au Conservatoire",
         "date": "Le 16 janvier 2026",
-        "lieu": "DATA",
+        "lieu": "Conservatoire Pierre Barbizet",
         "description": "L'oreille concrète, musique électroacoustique, 18h45 - gratuit",
         "start_date": "2026-01-16",
         "end_date": "2026-01-16",
@@ -1287,7 +1287,7 @@
         "tags": [
             "spectacle"
         ],
-        "categorie": "Concert",
+        "categorie": "Spectacle",
         "lien": "",
         "image_url": null,
         "image_locale": null
@@ -1300,9 +1300,10 @@
         "start_date": "2026-01-18",
         "end_date": "2026-01-18",
         "tags": [
-            "tournoi"
+            "tournoi",
+            "jeux"
         ],
-        "categorie": "Concert",
+        "categorie": "",
         "lien": "",
         "image_url": null,
         "image_locale": null
@@ -1382,7 +1383,7 @@
         "start_date": "2026-01-22",
         "end_date": "2026-01-22",
         "tags": [
-            "scène ouverte"
+            "jam"
         ],
         "categorie": "Concert",
         "lien": "",
@@ -1579,7 +1580,7 @@
     {
         "titre": "L'oreille concrète (musique électroacoustique) à CONSERVATOIRE PIERRE BARBIZET",
         "date": "Le 23 janvier 2026",
-        "lieu": "BRASSERIE COMMUNALE",
+        "lieu": "Conservatoire Pierre Barbizet",
         "description": "18h45 - gratuit",
         "start_date": "2026-01-23",
         "end_date": "2026-01-23",
@@ -2149,7 +2150,7 @@
     {
         "titre": "L'oreille concrète au CONSERVATOIRE PIERRE BARBIZET",
         "date": "Le 30 janvier 2026",
-        "lieu": null,
+        "lieu": "Conservatoire Pierre Barbizet",
         "description": "L'oreille concrète (musique électroacoustique) 19h/00h - gratuit",
         "start_date": "2026-01-30",
         "end_date": "2026-01-30",
@@ -2173,7 +2174,8 @@
             "dj set",
             "psytrance",
             "hi tech",
-            "forest"
+            "forest",
+            "musique électronique"
         ],
         "categorie": "Concert",
         "lien": null,
@@ -2189,7 +2191,8 @@
         "end_date": "2026-01-30",
         "tags": [
             "concert",
-            "techno"
+            "techno",
+            "musique électronique"
         ],
         "categorie": "Concert",
         "lien": null,
