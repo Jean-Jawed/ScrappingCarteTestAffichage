@@ -1,0 +1,2449 @@
+[
+    {
+        "titre": "La Megafonica (cumbia) à L'INTERMÉDIAIRE",
+        "date": "Le 2 janvier 2026",
+        "lieu": "L'INTERMÉDIAIRE",
+        "description": "20h - 5/7€",
+        "start_date": "2026-01-02",
+        "end_date": "2026-01-02",
+        "tags": [
+            "concert",
+            "cumbia",
+            "musique du monde"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Ksu (global bass / barzilian phonk) à LA MERVEILLEUSE",
+        "date": "Le 2 janvier 2026",
+        "lieu": "LA MERVEILLEUSE",
+        "description": "21h - prix libre",
+        "start_date": "2026-01-02",
+        "end_date": "2026-01-02",
+        "tags": [
+            "DJ set",
+            "bass music"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "There is no shame! (karaoke) à SING OR DIE KARAOKÉ",
+        "date": "Le 2 janvier 2026",
+        "lieu": "SING OR DIE KARAOKÉ",
+        "description": "21h - 6€/3€",
+        "start_date": "2026-01-02",
+        "end_date": "2026-01-02",
+        "tags": [
+            "karaoké"
+        ],
+        "categorie": "Karaoké",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Samedi midi (pop) + Kael (pop) + Saaaj (power pop) + Dj Framboise Hardy & Brad Pipe à L'INTERMÉDIAIRE",
+        "date": "Le 3 janvier 2026",
+        "lieu": "L'INTERMÉDIAIRE",
+        "description": "21h - 5€",
+        "start_date": "2026-01-03",
+        "end_date": "2026-01-03",
+        "tags": [
+            "concert",
+            "indie pop",
+            "power pop",
+            "DJ set"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Mino Teppish People à LA MERVEILLEUSE",
+        "date": "Le 3 janvier 2026",
+        "lieu": "LA MERVEILLEUSE",
+        "description": "(downtempo/ progressive) 21h - prix libre",
+        "start_date": "2026-01-03",
+        "end_date": "2026-01-03",
+        "tags": [
+            "DJ set",
+            "ambient"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "There is no shame! (karaoke) à SING OR DIE KARAOKÉ",
+        "date": "Le 3 janvier 2026",
+        "lieu": "SING OR DIE KARAOKÉ",
+        "description": "21h - 6€/3€",
+        "start_date": "2026-01-03",
+        "end_date": "2026-01-03",
+        "tags": [
+            "karaoké"
+        ],
+        "categorie": "Karaoké",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Distro bistro à LA SALLE GUEULE",
+        "date": "Le 4 janvier 2026",
+        "lieu": "LA SALLE GUEULE",
+        "description": "18h00 - gratuit",
+        "start_date": "2026-01-04",
+        "end_date": "2026-01-04",
+        "tags": [
+            "rencontre"
+        ],
+        "categorie": "Divers",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Vernissage Modou et ses amis à LE MOUNGUY",
+        "date": "Le 5 janvier 2026",
+        "lieu": "LE MOUNGUY",
+        "description": "18h - entrée libre",
+        "start_date": "2026-01-05",
+        "end_date": "2026-01-05",
+        "tags": [
+            "vernissage",
+            "exposition"
+        ],
+        "categorie": "Exposition",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Jam jazz qui dérape (jazz swing) à L'INTERMÉDIAIRE",
+        "date": "Le 6 janvier 2026",
+        "lieu": "L'INTERMÉDIAIRE",
+        "description": "20h entrée libre",
+        "start_date": "2026-01-06",
+        "end_date": "2026-01-06",
+        "tags": [
+            "jam",
+            "jazz",
+            "jazz swing"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Cineclub: Mietrebellen (locataires rebelles, 2014) à LA SALLE GUEULE",
+        "date": "Le 6 janvier 2026",
+        "lieu": "LA SALLE GUEULE",
+        "description": "20h30 - gratuit",
+        "start_date": "2026-01-06",
+        "end_date": "2026-01-06",
+        "tags": [
+            "cinéma",
+            "projection"
+        ],
+        "categorie": "Cinéma",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "SOS Queer en détresse à SING OR DIE KARAOKÉ",
+        "date": "Le 7 janvier 2026",
+        "lieu": "SING OR DIE KARAOKÉ",
+        "description": "Drag show par la House of inferno 19h30-5/7€",
+        "start_date": "2026-01-07",
+        "end_date": "2026-01-07",
+        "tags": [
+            "drag show",
+            "spectacle"
+        ],
+        "categorie": "Spectacle",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "No Jazz Quartet (garage rock) + Jim Younger Spirit (rock psyché) à LEDA ATOMICA MUSIQUE",
+        "date": "Le 8 janvier 2026",
+        "lieu": "LEDA ATOMICA MUSIQUE",
+        "description": "19h - 5/7€",
+        "start_date": "2026-01-08",
+        "end_date": "2026-01-08",
+        "tags": [
+            "concert",
+            "garage rock",
+            "rock psyché"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "InterG all stars à LE MOLOTOV",
+        "date": "Le 8 janvier 2026",
+        "lieu": "LE MOLOTOV",
+        "description": "(hardtrance/techno) 20h - 5€",
+        "start_date": "2026-01-08",
+        "end_date": "2026-01-08",
+        "tags": [
+            "DJ set",
+            "techno",
+            "trance"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Boeuf hanté (scène ouverte) à LA MAISON HANTÉE",
+        "date": "Le 8 janvier 2026",
+        "lieu": "LA MAISON HANTÉE",
+        "description": "20h entrée libre",
+        "start_date": "2026-01-08",
+        "end_date": "2026-01-08",
+        "tags": [
+            "jam"
+        ],
+        "categorie": "Spectacle",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Ma3na (projection film) à LA DAR, CENTRE SOCIAL AUTOGÉRÉ",
+        "date": "Le 8 janvier 2026",
+        "lieu": "LA DAR, CENTRE SOCIAL AUTOGÉRÉ",
+        "description": "19h - prix libre",
+        "start_date": "2026-01-08",
+        "end_date": "2026-01-08",
+        "tags": [
+            "projection",
+            "cinéma"
+        ],
+        "categorie": "Cinéma",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Karaoke par Marilyn Monvier à SING OR DIE KARAOKÉ",
+        "date": "Le 8 janvier 2026",
+        "lieu": "SING OR DIE KARAOKÉ",
+        "description": "21h - 6€/3€",
+        "start_date": "2026-01-08",
+        "end_date": "2026-01-08",
+        "tags": [
+            "karaoké"
+        ],
+        "categorie": "Karaoké",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Embargo trio à LOLLIPOP",
+        "date": "Le 09 janvier 2026",
+        "lieu": "LOLLIPOP",
+        "description": "rock, 19h00- entrée libre",
+        "start_date": "2026-01-09",
+        "end_date": "2026-01-09",
+        "tags": [
+            "concert",
+            "rock"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "ÅÅÅ + BusF à DATA",
+        "date": "Le 09 janvier 2026",
+        "lieu": "DATA",
+        "description": "experimental psyché + noise mutant, 19h - 3/9€",
+        "start_date": "2026-01-09",
+        "end_date": "2026-01-09",
+        "tags": [
+            "concert",
+            "psyché",
+            "experimental",
+            "noise"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Kriegelstein à LA MAISON HANTÉE",
+        "date": "Le 09 janvier 2026",
+        "lieu": "LA MAISON HANTÉE",
+        "description": "stoner psyché, 20h - prix libre",
+        "start_date": "2026-01-09",
+        "end_date": "2026-01-09",
+        "tags": [
+            "concert",
+            "stoner",
+            "psyché"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Parlor + Self Serving à L'INTERMÉDIAIRE",
+        "date": "Le 09 janvier 2026",
+        "lieu": "L'INTERMÉDIAIRE",
+        "description": "post-hardcore + chaotic hardcore, 21h - 6/8€",
+        "start_date": "2026-01-09",
+        "end_date": "2026-01-09",
+        "tags": [
+            "concert",
+            "hardcore",
+            "post-hardcore"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Cold Machine + Droïdes à LEDA ATOMICA MUSIQUE",
+        "date": "Le 09 janvier 2026",
+        "lieu": "LEDA ATOMICA MUSIQUE",
+        "description": "rock wave + metal, 19h - 5/7€",
+        "start_date": "2026-01-09",
+        "end_date": "2026-01-09",
+        "tags": [
+            "concert",
+            "rock",
+            "new wave",
+            "metal"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Anniversaire Hazem à LE MOLOTOV",
+        "date": "Le 09 janvier 2026",
+        "lieu": "LE MOLOTOV",
+        "description": "groupes et djs surprises, 20h30 prix libre",
+        "start_date": "2026-01-09",
+        "end_date": "2026-01-09",
+        "tags": [
+            "concert",
+            "dj set"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "L'oreille concrète, musique électroacoustique, au conservatoire",
+        "date": "Le 09 janvier 2026",
+        "lieu": "Conservatoire Pierre Barbizet",
+        "description": "L'oreille concrète, musique électroacoustique, 18h45 - gratuit",
+        "start_date": "2026-01-09",
+        "end_date": "2026-01-09",
+        "tags": [
+            "concert",
+            "musique électronique",
+            "experimental"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Scène ouverte à OSTAU DAU PAÍS MARSELHÉS",
+        "date": "Le 09 janvier 2026",
+        "lieu": "OSTAU DAU PAÍS MARSELHÉS",
+        "description": "Scène ouverte / Soupe Pho, 19h - entrée libre",
+        "start_date": "2026-01-09",
+        "end_date": "2026-01-09",
+        "tags": [
+            "jam"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Jam session Jazz à ZOUMAŤ",
+        "date": "Le 09 janvier 2026",
+        "lieu": "ZOUMAŤ",
+        "description": "20h30 entrée libre",
+        "start_date": "2026-01-09",
+        "end_date": "2026-01-09",
+        "tags": [
+            "jam",
+            "jazz"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Cclo à LA MERVEILLEUSE",
+        "date": "Le 09 janvier 2026",
+        "lieu": "LA MERVEILLEUSE",
+        "description": "bass / uk club, 21h - prix libre",
+        "start_date": "2026-01-09",
+        "end_date": "2026-01-09",
+        "tags": [
+            "dj set",
+            "bass music"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "DJ Mamaloba à LE MOUNGUY",
+        "date": "Le 09 janvier 2026",
+        "lieu": "LE MOUNGUY",
+        "description": "Amerique latine vibes, 20h30 entrée libre",
+        "start_date": "2026-01-09",
+        "end_date": "2026-01-09",
+        "tags": [
+            "dj set",
+            "musique du monde",
+            "cumbia",
+            "reggaeton"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "There is no shame! à SING OR DIE KARAOKÉ",
+        "date": "Le 09 janvier 2026",
+        "lieu": "SING OR DIE KARAOKÉ",
+        "description": "karaoke, 21h - 6€/3€",
+        "start_date": "2026-01-09",
+        "end_date": "2026-01-09",
+        "tags": [
+            "karaoké"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "DJ2Pop & the Disco Family à DATA",
+        "date": "Le 09 janvier 2026",
+        "lieu": "DATA",
+        "description": "\"Dance or Die\", 21h - entrée libre",
+        "start_date": "2026-01-09",
+        "end_date": "2026-01-09",
+        "tags": [
+            "dj set"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Jim Younger's Spirit + Avee Mana + Sovox + technopolice + Oai Cheap +Wake the Dead + Bingire + DJ-Sets à LA PLATEFORME",
+        "date": "Le 10 janvier 2026",
+        "lieu": "LA PLATEFORME",
+        "description": "18h00-04h00 -10€",
+        "start_date": "2026-01-10",
+        "end_date": "2026-01-10",
+        "tags": [
+            "concert",
+            "dj set",
+            "techno"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "L'Écuyer + Voisins Vigilants + Zanpantzar à LA SALLE GUEULE",
+        "date": "Le 10 janvier 2026",
+        "lieu": "LA SALLE GUEULE",
+        "description": "post-punk électronique + electro-punk + tekno, 20h30- 5€",
+        "start_date": "2026-01-10",
+        "end_date": "2026-01-10",
+        "tags": [
+            "concert",
+            "post-punk",
+            "musique électronique",
+            "electro",
+            "punk"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Dinosauri in Città + Velleity à DATA",
+        "date": "Le 10 janvier 2026",
+        "lieu": "DATA",
+        "description": "noise rock + hyper electroacoustique, 19h-3/9€",
+        "start_date": "2026-01-10",
+        "end_date": "2026-01-10",
+        "tags": [
+            "concert",
+            "noise rock",
+            "experimental"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Brent + Muddy Buddies à LA MAISON HANTÉE",
+        "date": "Le 10 janvier 2026",
+        "lieu": "LA MAISON HANTÉE",
+        "description": "grunge metal + folk/country/surf, 20h - prix libre",
+        "start_date": "2026-01-10",
+        "end_date": "2026-01-10",
+        "tags": [
+            "concert",
+            "grunge",
+            "metal",
+            "folk"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Auto. + Anton à LEDA ATOMICA MUSIQUE",
+        "date": "Le 10 janvier 2026",
+        "lieu": "LEDA ATOMICA MUSIQUE",
+        "description": "post punk + dark waze, 19h-7€",
+        "start_date": "2026-01-10",
+        "end_date": "2026-01-10",
+        "tags": [
+            "concert",
+            "post-punk",
+            "darkwave"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Massilia Rap #7: Chamdou & Gigila + Nikoverse Kwesy + Nsuku + DJ Sweetanaz à L'INTERMÉDIAIRE",
+        "date": "Le 10 janvier 2026",
+        "lieu": "L'INTERMÉDIAIRE",
+        "description": "hip hop/rap, 21h - 6/8€",
+        "start_date": "2026-01-10",
+        "end_date": "2026-01-10",
+        "tags": [
+            "concert",
+            "hip-hop",
+            "rap"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Sullybud à LA MERVEILLEUSE",
+        "date": "Le 10 janvier 2026",
+        "lieu": "LA MERVEILLEUSE",
+        "description": "grime / 140, 21h - prix libre",
+        "start_date": "2026-01-10",
+        "end_date": "2026-01-10",
+        "tags": [
+            "dj set",
+            "grime"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Rakata Collective: Wanda Witt + Tomé + Rafiki + Andrée feat Ker-mittta & Maxone à LE MOLOTOV",
+        "date": "Le 10 janvier 2026",
+        "lieu": "LE MOLOTOV",
+        "description": "electro / techno, 20h30- 8/10€",
+        "start_date": "2026-01-10",
+        "end_date": "2026-01-10",
+        "tags": [
+            "dj set",
+            "electro",
+            "techno"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "BC all stars à BRASSERIE COMMUNALE",
+        "date": "Le 10 janvier 2026",
+        "lieu": "BRASSERIE COMMUNALE",
+        "description": "live & djs rap / tribe / techno / fun, 21h00 entrée libre",
+        "start_date": "2026-01-10",
+        "end_date": "2026-01-10",
+        "tags": [
+            "concert",
+            "dj set",
+            "rap",
+            "techno"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "X-noctis à LES 9 SALOPARDS",
+        "date": "Le 10 janvier 2026",
+        "lieu": "LES 9 SALOPARDS",
+        "description": "dj set dark/goth/ post punk, 21h00 - prix libre",
+        "start_date": "2026-01-10",
+        "end_date": "2026-01-10",
+        "tags": [
+            "dj set",
+            "goth",
+            "post-punk",
+            "darkwave"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Heptasound à ZOUMAŤ",
+        "date": "Le 10 janvier 2026",
+        "lieu": "ZOUMAŤ",
+        "description": "dj set electro, 20h30 entrée libre",
+        "start_date": "2026-01-10",
+        "end_date": "2026-01-10",
+        "tags": [
+            "dj set",
+            "electro"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "There is no shame! à SING OR DIE KARAOKÉ",
+        "date": "Le 10 janvier 2026",
+        "lieu": "SING OR DIE KARAOKÉ",
+        "description": "karaoke, 21h - 6€/3€",
+        "start_date": "2026-01-10",
+        "end_date": "2026-01-10",
+        "tags": [
+            "karaoké"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Uptown music band à LE MOLOTOV",
+        "date": "Le 11 janvier 2026",
+        "lieu": "LE MOLOTOV",
+        "description": "18h - 5€",
+        "start_date": "2026-01-11",
+        "end_date": "2026-01-11",
+        "tags": [
+            "concert"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Projection de \"Trances\" à VIDEODROME 2",
+        "date": "Le 11 janvier 2026",
+        "lieu": "VIDÉODROME 2",
+        "description": "film sur le groupe marocain Nass El Ghiwane, 20h30 - prix libre",
+        "start_date": "2026-01-11",
+        "end_date": "2026-01-11",
+        "tags": [
+            "projection",
+            "cinéma",
+            "musique du monde",
+            "gnawa"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Tournoi d'échecs à LE MOUNGUY",
+        "date": "Le 11 janvier 2026",
+        "lieu": "LE MOUNGUY",
+        "description": "14h entrée libre",
+        "start_date": "2026-01-11",
+        "end_date": "2026-01-11",
+        "tags": [
+            "tournoi"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Jam jazz qui dérape à L'INTERMÉDIAIRE",
+        "date": "Le 13 janvier 2026",
+        "lieu": "L'INTERMÉDIAIRE",
+        "description": "jazz swing, 20h - entrée libre",
+        "start_date": "2026-01-13",
+        "end_date": "2026-01-13",
+        "tags": [
+            "jam",
+            "jazz",
+            "jazz swing"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Projection \"The Rocky Horror Picture Show\" à VIDEODROME 2",
+        "date": "Le 13 janvier 2026",
+        "lieu": "VIDÉODROME 2",
+        "description": "20h30 prix libre",
+        "start_date": "2026-01-13",
+        "end_date": "2026-01-13",
+        "tags": [
+            "projection",
+            "cinéma"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Comète + Naud à LEDA ATOMICA MUSIQUE",
+        "date": "Le 14 janvier 2026",
+        "lieu": "LEDA ATOMICA MUSIQUE",
+        "description": "rock garage + indi pop, 19h-5€",
+        "start_date": "2026-01-14",
+        "end_date": "2026-01-14",
+        "tags": [
+            "concert",
+            "rock garage",
+            "indie pop"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Eight'Thyrse à SING OR DIE KARAOKÉ",
+        "date": "Le 14 janvier 2026",
+        "lieu": "SING OR DIE KARAOKÉ",
+        "description": "Drag show par Thyrse, 19h30-7€",
+        "start_date": "2026-01-14",
+        "end_date": "2026-01-14",
+        "tags": [
+            "drag show"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Emmi & Lisa + Ost See Blick à LEDA ATOMICA MUSIQUE",
+        "date": "Le 15 janvier 2026",
+        "lieu": "LEDA ATOMICA MUSIQUE",
+        "description": "indi pop + folk, 19h-7€",
+        "start_date": "2026-01-15",
+        "end_date": "2026-01-15",
+        "tags": [
+            "concert",
+            "indie pop",
+            "folk",
+            "indie folk"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Plastic finger band à L'INTERMÉDIAIRE",
+        "date": "Le 15 janvier 2026",
+        "lieu": "L'INTERMÉDIAIRE",
+        "description": "glam rock, 21h - 5€",
+        "start_date": "2026-01-15",
+        "end_date": "2026-01-15",
+        "tags": [
+            "concert",
+            "rock",
+            "glam rock"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Brise & Brasier live session: Esspe + Zita Band + Aymard à LE MOLOTOV",
+        "date": "Le 15 janvier 2026",
+        "lieu": "LE MOLOTOV",
+        "description": "alt rap / trip hop / neo soul ..., 20h30-8/10/12€",
+        "start_date": "2026-01-15",
+        "end_date": "2026-01-15",
+        "tags": [
+            "concert",
+            "hip-hop",
+            "rap",
+            "trip hop",
+            "neo soul"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "les Baïden's à LA MAISON HANTÉE",
+        "date": "Le 15 janvier 2026",
+        "lieu": "LA MAISON HANTÉE",
+        "description": "rock, 20h - prix libre",
+        "start_date": "2026-01-15",
+        "end_date": "2026-01-15",
+        "tags": [
+            "concert",
+            "rock"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Karaoke par Devin Kissay à SING OR DIE KARAOKÉ",
+        "date": "Le 15 janvier 2026",
+        "lieu": "SING OR DIE KARAOKÉ",
+        "description": "21h - 6€/3€",
+        "start_date": "2026-01-15",
+        "end_date": "2026-01-15",
+        "tags": [
+            "karaoké"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Pierre Luciani & JM Montera à LOLLIPOP",
+        "date": "Le 16 janvier 2026",
+        "lieu": "LOLLIPOP",
+        "description": "free + expo gravure sur vinyle, 19h00 - entrée libre",
+        "start_date": "2026-01-16",
+        "end_date": "2026-01-16",
+        "tags": [
+            "exposition",
+            "free jazz"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Jostle + Own the day à LEDA ATOMICA MUSIQUE",
+        "date": "Le 16 janvier 2026",
+        "lieu": "LEDA ATOMICA MUSIQUE",
+        "description": "power trio rock + metal alternatif, 19h - 5€",
+        "start_date": "2026-01-16",
+        "end_date": "2026-01-16",
+        "tags": [
+            "concert",
+            "rock",
+            "metal",
+            "metal alternatif"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Piel Canela à ZOUMAŤ",
+        "date": "Le 16 janvier 2026",
+        "lieu": "ZOUMAŤ",
+        "description": "rumba fusion, 20h30 entrée libre",
+        "start_date": "2026-01-16",
+        "end_date": "2026-01-16",
+        "tags": [
+            "concert",
+            "rumba",
+            "musique du monde"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Nachave à LA SALLE GUEULE",
+        "date": "Le 16 janvier 2026",
+        "lieu": "LA SALLE GUEULE",
+        "description": "post punk, 20h30-5€",
+        "start_date": "2026-01-16",
+        "end_date": "2026-01-16",
+        "tags": [
+            "concert",
+            "post-punk"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "1003 + Geiste + Dj set techno à L'INTERMÉDIAIRE",
+        "date": "Le 16 janvier 2026",
+        "lieu": "L'INTERMÉDIAIRE",
+        "description": "indus pop + alt pop, 21h - 5€",
+        "start_date": "2026-01-16",
+        "end_date": "2026-01-16",
+        "tags": [
+            "concert",
+            "dj set",
+            "musique électronique",
+            "techno",
+            "indus pop",
+            "alt pop"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Vinscat + Fauzène à HYPERION",
+        "date": "Le 16 janvier 2026",
+        "lieu": "HYPERION",
+        "description": "indie pop + rock / chanson, 20h30 entrée libre sur réservation",
+        "start_date": "2026-01-16",
+        "end_date": "2026-01-16",
+        "tags": [
+            "concert",
+            "indie pop",
+            "rock",
+            "chanson",
+            "chanson française"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Never à LA MAISON HANTÉE",
+        "date": "Le 16 janvier 2026",
+        "lieu": "LA MAISON HANTÉE",
+        "description": "rock, 20h - prix libre",
+        "start_date": "2026-01-16",
+        "end_date": "2026-01-16",
+        "tags": [
+            "concert",
+            "rock"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "PIERRE BARBIZET à DATA",
+        "date": "Le 16 janvier 2026",
+        "lieu": "DATA",
+        "description": "L'oreille concrète, musique électroacoustique, 18h45 - gratuit",
+        "start_date": "2026-01-16",
+        "end_date": "2026-01-16",
+        "tags": [
+            "musique électronique",
+            "electro",
+            "experimental"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Metaphore Collectif: La Baronne + Vanda Forte + Gombaxx + Israfil à LE MOLOTOV",
+        "date": "Le 16 janvier 2026",
+        "lieu": "LE MOLOTOV",
+        "description": "electro / techno / expérimental, 20h30 prix libre",
+        "start_date": "2026-01-16",
+        "end_date": "2026-01-16",
+        "tags": [
+            "concert",
+            "electro",
+            "techno",
+            "expérimental"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Seul ensemble + Guigz à LA MERVEILLEUSE",
+        "date": "Le 16 janvier 2026",
+        "lieu": "LA MERVEILLEUSE",
+        "description": "new waveà + indie, 21h - prix libre",
+        "start_date": "2026-01-16",
+        "end_date": "2026-01-16",
+        "tags": [
+            "concert",
+            "new wave",
+            "indie pop"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "There is no shame! à SING OR DIE KARAOKÉ",
+        "date": "Le 16 janvier 2026",
+        "lieu": "SING OR DIE KARAOKÉ",
+        "description": "karaoke, 21h - 6€/3€",
+        "start_date": "2026-01-16",
+        "end_date": "2026-01-16",
+        "tags": [
+            "karaoké"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Les Tardigrades (punk rock) + Lispency (punk rock) + Phantom Ass (hardcore punk) à LA SALLE GUEULE",
+        "date": "Le 17 janvier 2026",
+        "lieu": "LA SALLE GUEULE",
+        "description": "21h00-5€",
+        "start_date": "2026-01-17",
+        "end_date": "2026-01-17",
+        "tags": [
+            "concert",
+            "punk rock",
+            "hardcore punk"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Jamie Spacey (pop) + Metonic Cycle (hard folk) + Wiza Witch (folk) à LEDA ATOMICA MUSIQUE",
+        "date": "Le 17 janvier 2026",
+        "lieu": "LEDA ATOMICA MUSIQUE",
+        "description": "19h-7€",
+        "start_date": "2026-01-17",
+        "end_date": "2026-01-17",
+        "tags": [
+            "concert",
+            "indie pop",
+            "folk",
+            "indie folk"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Sub Tabula (frontale core) à DATA",
+        "date": "Le 17 janvier 2026",
+        "lieu": "DATA",
+        "description": "19h -3/9€",
+        "start_date": "2026-01-17",
+        "end_date": "2026-01-17",
+        "tags": [
+            "concert",
+            "experimental"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Out of time (jazz expérimental) à L'INTERMÉDIAIRE",
+        "date": "Le 17 janvier 2026",
+        "lieu": "L'INTERMÉDIAIRE",
+        "description": "21h - 5€",
+        "start_date": "2026-01-17",
+        "end_date": "2026-01-17",
+        "tags": [
+            "concert",
+            "jazz",
+            "free jazz"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Glassbone (hardcore / death metal) + Entertorment (hardcore) + Reigne (blackened hardcore) à LE MOLOTOV",
+        "date": "Le 17 janvier 2026",
+        "lieu": "LE MOLOTOV",
+        "description": "20h30-10€",
+        "start_date": "2026-01-17",
+        "end_date": "2026-01-17",
+        "tags": [
+            "concert",
+            "hardcore",
+            "death metal",
+            "black metal"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Cuatico Jam à LE MOUNGUY",
+        "date": "Le 17 janvier 2026",
+        "lieu": "LE MOUNGUY",
+        "description": "21h30 - entrée libre",
+        "start_date": "2026-01-17",
+        "end_date": "2026-01-17",
+        "tags": [
+            "jam"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Rencontre autour de la loi Kasbarian / Bergé + karaoke à LA DAR, CENTRE SOCIAL AUTOGÉRÉ",
+        "date": "Le 17 janvier 2026",
+        "lieu": "LA DAR, CENTRE SOCIAL AUTOGÉRÉ",
+        "description": "18h - prix libre",
+        "start_date": "2026-01-17",
+        "end_date": "2026-01-17",
+        "tags": [
+            "rencontre",
+            "karaoké"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Dacia banderas (live machine techno) à LA MERVEILLEUSE",
+        "date": "Le 17 janvier 2026",
+        "lieu": "LA MERVEILLEUSE",
+        "description": "21h - prix libre",
+        "start_date": "2026-01-17",
+        "end_date": "2026-01-17",
+        "tags": [
+            "concert",
+            "techno"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Silver Balls (rock) à LA MAISON HANTÉE",
+        "date": "Le 17 janvier 2026",
+        "lieu": "LA MAISON HANTÉE",
+        "description": "20h - prix libre",
+        "start_date": "2026-01-17",
+        "end_date": "2026-01-17",
+        "tags": [
+            "concert",
+            "rock"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Swing On Mars (bal swing) à ZOUMAŤ",
+        "date": "Le 17 janvier 2026",
+        "lieu": "ZOUMAŤ",
+        "description": "20h30 - entrée libre",
+        "start_date": "2026-01-17",
+        "end_date": "2026-01-17",
+        "tags": [
+            "bal",
+            "jazz swing"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Vernissage \"Brisure d'Ego\" (18h30) + Hervé Haggai (lectures théâtralisées) à LE NON-LIEU",
+        "date": "Le 17 janvier 2026",
+        "lieu": "LE NON-LIEU",
+        "description": "20h30- 8/11€",
+        "start_date": "2026-01-17",
+        "end_date": "2026-01-17",
+        "tags": [
+            "vernissage",
+            "théâtre"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "There is no shame! (karaoke) à SING OR DIE KARAOKÉ",
+        "date": "Le 17 janvier 2026",
+        "lieu": "SING OR DIE KARAOKÉ",
+        "description": "21h - 6€/3€",
+        "start_date": "2026-01-17",
+        "end_date": "2026-01-17",
+        "tags": [
+            "karaoké"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Metaphore Collectif - Meta live Midsummer Blaze (blackgaze) + Lucien Balconi (neo folk) + Manon Tombe (goth selecta) + Dua Lity (dub metal) à L'EMBOBINEUSE",
+        "date": "Le 18 janvier 2026",
+        "lieu": "L'EMBOBINEUSE",
+        "description": "18h00-10€",
+        "start_date": "2026-01-18",
+        "end_date": "2026-01-18",
+        "tags": [
+            "concert",
+            "blackgaze",
+            "neo folk",
+            "goth",
+            "dub metal"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "<< Ma Mamie >> (spectacle intergénérationnel) à LE NON-LIEU",
+        "date": "Le 18 janvier 2026",
+        "lieu": "LE NON-LIEU",
+        "description": "17h00-8/11€",
+        "start_date": "2026-01-18",
+        "end_date": "2026-01-18",
+        "tags": [
+            "spectacle"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Tournoi de contrée à LE MOUNGUY",
+        "date": "Le 18 janvier 2026",
+        "lieu": "LE MOUNGUY",
+        "description": "14h entrée libre",
+        "start_date": "2026-01-18",
+        "end_date": "2026-01-18",
+        "tags": [
+            "tournoi"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Jam jazz manouche à L'INTERMÉDIAIRE",
+        "date": "Le 19 janvier 2026",
+        "lieu": "L'INTERMÉDIAIRE",
+        "description": "20h entrée libre",
+        "start_date": "2026-01-19",
+        "end_date": "2026-01-19",
+        "tags": [
+            "jam",
+            "jazz manouche"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Séance Acousmodrome \"Le Flou du Monde, Offrande au Chaos\" (films expé & électroacoustique) à VIDEODROME 2",
+        "date": "Le 20 janvier 2026",
+        "lieu": "VIDÉODROME 2",
+        "description": "20h00 prix libre",
+        "start_date": "2026-01-20",
+        "end_date": "2026-01-20",
+        "tags": [
+            "cinéma",
+            "projection",
+            "experimental",
+            "musique électronique"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Jam jazz qui dérape (jazz swing) à L'INTERMÉDIAIRE",
+        "date": "Le 20 janvier 2026",
+        "lieu": "L'INTERMÉDIAIRE",
+        "description": "20h - entrée libre",
+        "start_date": "2026-01-20",
+        "end_date": "2026-01-20",
+        "tags": [
+            "jam",
+            "jazz",
+            "jazz swing"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Le Cabaret de Mme Pachole Drag show par Maria Chichi pattes en l'air à SING OR DIE KARAOKÉ",
+        "date": "Le 21 janvier 2026",
+        "lieu": "SING OR DIE KARAOKÉ",
+        "description": "19h - 5/7€",
+        "start_date": "2026-01-21",
+        "end_date": "2026-01-21",
+        "tags": [
+            "spectacle",
+            "drag show"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Boeuf hanté (scène ouverte) à LA MAISON HANTÉE",
+        "date": "Le 22 janvier 2026",
+        "lieu": "LA MAISON HANTÉE",
+        "description": "20h entrée libre",
+        "start_date": "2026-01-22",
+        "end_date": "2026-01-22",
+        "tags": [
+            "scène ouverte"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "La Vermine squad #4 (rap hip hop) Dj fight skull & Nsuku & Lady land &Nahys+ Le Bast & Mista-didus & Tressy'm BeatBox + battle de rap (Cypher) à L'INTERMÉDIAIRE",
+        "date": "Le 22 janvier 2026",
+        "lieu": "L'INTERMÉDIAIRE",
+        "description": "20h - 5€",
+        "start_date": "2026-01-22",
+        "end_date": "2026-01-22",
+        "tags": [
+            "dj set",
+            "rencontre",
+            "hip-hop",
+            "rap"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Deux gars, 1 indien (rock) + No Exit Only (rock) à LEDA ATOMICA MUSIQUE",
+        "date": "Le 22 janvier 2026",
+        "lieu": "LEDA ATOMICA MUSIQUE",
+        "description": "19h - 5€",
+        "start_date": "2026-01-22",
+        "end_date": "2026-01-22",
+        "tags": [
+            "concert",
+            "rock"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Karaoke par Marilyn Monvier à SING OR DIE KARAOKÉ",
+        "date": "Le 22 janvier 2026",
+        "lieu": "SING OR DIE KARAOKÉ",
+        "description": "21h - 6€/3€",
+        "start_date": "2026-01-22",
+        "end_date": "2026-01-22",
+        "tags": [
+            "karaoké"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Flathead (power pop) à LOLLIPOP",
+        "date": "Le 23 janvier 2026",
+        "lieu": "LOLLIPOP",
+        "description": "19h00 entrée libre",
+        "start_date": "2026-01-23",
+        "end_date": "2026-01-23",
+        "tags": [
+            "concert",
+            "rock",
+            "power pop"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Uragano (screamo) + qb (garage fuzz) + Wetwalls (post hardcore) à LA SALLE GUEULE",
+        "date": "Le 23 janvier 2026",
+        "lieu": "LA SALLE GUEULE",
+        "description": "20h30-5€ si tu peux",
+        "start_date": "2026-01-23",
+        "end_date": "2026-01-23",
+        "tags": [
+            "concert",
+            "screamo",
+            "garage rock",
+            "post-hardcore"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Zawia Fama (rock gnawi) à ZOUMAŤ",
+        "date": "Le 23 janvier 2026",
+        "lieu": "ZOUMAŤ",
+        "description": "20h30 - entrée libre",
+        "start_date": "2026-01-23",
+        "end_date": "2026-01-23",
+        "tags": [
+            "concert",
+            "rock",
+            "gnawa",
+            "musique du monde"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Vincente Mateus (répétition et erreur) + Buisson (improvisation libre) à DATA",
+        "date": "Le 23 janvier 2026",
+        "lieu": "DATA",
+        "description": "19h - 3/9€",
+        "start_date": "2026-01-23",
+        "end_date": "2026-01-23",
+        "tags": [
+            "concert",
+            "experimental"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Kabaal (drum machine) + 12V5 (mecanique) + Dj Nerf (boum cheloue) à L'EMBOBINEUSE",
+        "date": "Le 23 janvier 2026",
+        "lieu": "L'EMBOBINEUSE",
+        "description": "21h00-9€",
+        "start_date": "2026-01-23",
+        "end_date": "2026-01-23",
+        "tags": [
+            "dj set",
+            "musique électronique"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Super Pétale Super + Late Moka + Fanfare VNB (fanfares funk) à LE MOLOTOV",
+        "date": "Le 23 janvier 2026",
+        "lieu": "LE MOLOTOV",
+        "description": "20h30 - prix libre",
+        "start_date": "2026-01-23",
+        "end_date": "2026-01-23",
+        "tags": [
+            "concert",
+            "fanfare",
+            "funk"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Suicide blonde (pop jazz) + Yona (dream trip) + Louvena (folk) à L'INTERMÉDIAIRE",
+        "date": "Le 23 janvier 2026",
+        "lieu": "L'INTERMÉDIAIRE",
+        "description": "21h - 5€",
+        "start_date": "2026-01-23",
+        "end_date": "2026-01-23",
+        "tags": [
+            "concert",
+            "pop",
+            "jazz",
+            "dream pop",
+            "folk"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Nezu (metal) + Thorelaj (folk) à LEDA ATOMICA MUSIQUE",
+        "date": "Le 23 janvier 2026",
+        "lieu": "LEDA ATOMICA MUSIQUE",
+        "description": "19h -7€",
+        "start_date": "2026-01-23",
+        "end_date": "2026-01-23",
+        "tags": [
+            "concert",
+            "metal",
+            "folk"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "L'oreille concrète (musique électroacoustique) à CONSERVATOIRE PIERRE BARBIZET",
+        "date": "Le 23 janvier 2026",
+        "lieu": "BRASSERIE COMMUNALE",
+        "description": "18h45 - gratuit",
+        "start_date": "2026-01-23",
+        "end_date": "2026-01-23",
+        "tags": [
+            "concert",
+            "musique électronique"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Samly Valentin (indie/live) à LA MERVEILLEUSE",
+        "date": "Le 23 janvier 2026",
+        "lieu": "LA MERVEILLEUSE",
+        "description": "21h - prix libre",
+        "start_date": "2026-01-23",
+        "end_date": "2026-01-23",
+        "tags": [
+            "concert",
+            "indie pop"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Big Feet (rock) à LA MAISON HANTÉE",
+        "date": "Le 23 janvier 2026",
+        "lieu": "LA MAISON HANTÉE",
+        "description": "20h - prix libre",
+        "start_date": "2026-01-23",
+        "end_date": "2026-01-23",
+        "tags": [
+            "concert",
+            "rock"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "DJ Aiden (funk disco) à LE MOUNGUY",
+        "date": "Le 23 janvier 2026",
+        "lieu": "LE MOUNGUY",
+        "description": "21h30 entrée libre",
+        "start_date": "2026-01-23",
+        "end_date": "2026-01-23",
+        "tags": [
+            "dj set",
+            "funk",
+            "disco"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "There is no shame! (karaoke) à SING OR DIE KARAOKÉ",
+        "date": "Le 23 janvier 2026",
+        "lieu": "SING OR DIE KARAOKÉ",
+        "description": "21h - 6€/3€",
+        "start_date": "2026-01-23",
+        "end_date": "2026-01-23",
+        "tags": [
+            "karaoké"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Veteran + Diego Montoya à L'INTERMÉDIAIRE",
+        "date": "Le 24 janvier 2026",
+        "lieu": "L'INTERMÉDIAIRE",
+        "description": "Veteran (shlag country / dark folk) + Diego Montoya (drone XP à guitare) 21h00 - 5€ (15€ avec le disque)",
+        "start_date": "2026-01-24",
+        "end_date": "2026-01-24",
+        "tags": [
+            "concert",
+            "folk",
+            "country"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Soirée Fin de Semaine: Great Panic Roger + Clay aux LES 9 SALOPARDS",
+        "date": "Le 24 janvier 2026",
+        "lieu": "LES 9 SALOPARDS",
+        "description": "Great Panic Roger (post punk) + Clay (shoegaze) 21h00 prix libre",
+        "start_date": "2026-01-24",
+        "end_date": "2026-01-24",
+        "tags": [
+            "concert",
+            "post-punk",
+            "shoegaze"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "ZEK + Silver Gallery à LEDA ATOMICA",
+        "date": "Le 24 janvier 2026",
+        "lieu": "LEDA ATOMICA MUSIQUE",
+        "description": "ZEK (post punk) + Silver Gallery (shogaeze / sludge) 19h - 7€",
+        "start_date": "2026-01-24",
+        "end_date": "2026-01-24",
+        "tags": [
+            "concert",
+            "post-punk",
+            "shoegaze",
+            "sludge"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Joe la truite + Unleash + Brume à LA SALLE GUEULE",
+        "date": "Le 24 janvier 2026",
+        "lieu": "LA SALLE GUEULE",
+        "description": "Joe la truite (Psychedelic punk metal) + Unleash (Alternative Metal Stoner) + Brume (Post HxC/Nîmes) 20h30- 5€ si tu peux",
+        "start_date": "2026-01-24",
+        "end_date": "2026-01-24",
+        "tags": [
+            "concert",
+            "metal",
+            "punk",
+            "psyché",
+            "stoner",
+            "metal alternatif",
+            "hardcore"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Tal Coal + TZZ à SPAZIO",
+        "date": "Le 24 janvier 2026",
+        "lieu": "SPAZIO",
+        "description": "Tal Coal (chants de reliefs) + TZZ (bourrasques modulaires) 18h - 8€",
+        "start_date": "2026-01-24",
+        "end_date": "2026-01-24",
+        "tags": [
+            "concert",
+            "experimental"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "BelfegorZ + Royal Spanking à LA MAISON HANTÉE",
+        "date": "Le 24 janvier 2026",
+        "lieu": "LA MAISON HANTÉE",
+        "description": "BelfegorZ (garage rock) + Royal Spanking (garage punk) 20h - prix libre",
+        "start_date": "2026-01-24",
+        "end_date": "2026-01-24",
+        "tags": [
+            "concert",
+            "garage rock",
+            "garage punk"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Faliba à BRASSERIE COMMUNALE",
+        "date": "Le 24 janvier 2026",
+        "lieu": "BRASSERIE COMMUNALE",
+        "description": "Faliba (Afro jazz / afro beat) 21h00 - entrée libre",
+        "start_date": "2026-01-24",
+        "end_date": "2026-01-24",
+        "tags": [
+            "concert",
+            "jazz",
+            "musique du monde",
+            "afrobeat"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Jean-Jacques Boitard au LE NON-LIEU",
+        "date": "Le 24 janvier 2026",
+        "lieu": "LE NON-LIEU",
+        "description": "Jean-Jacques Boitard (chanson française) 20h30- 10€",
+        "start_date": "2026-01-24",
+        "end_date": "2026-01-24",
+        "tags": [
+            "concert",
+            "chanson",
+            "chanson française"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Cantine Populaire / Scène ouverte à MARSELHÉS",
+        "date": "Le 24 janvier 2026",
+        "lieu": null,
+        "description": "Cantine Populaire / Scène ouverte 19h - entrée libre",
+        "start_date": "2026-01-24",
+        "end_date": "2026-01-24",
+        "tags": [
+            "scène ouverte"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Jam session jazz à ZOUMAŤ",
+        "date": "Le 24 janvier 2026",
+        "lieu": "ZOUMAŤ",
+        "description": "Jam session jazz 20h30 entrée libre",
+        "start_date": "2026-01-24",
+        "end_date": "2026-01-24",
+        "tags": [
+            "jam",
+            "jazz"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Larakoune à LA MERVEILLEUSE",
+        "date": "Le 24 janvier 2026",
+        "lieu": "LA MERVEILLEUSE",
+        "description": "Larakoune (dub techno) 21h - prix libre",
+        "start_date": "2026-01-24",
+        "end_date": "2026-01-24",
+        "tags": [
+            "concert",
+            "musique électronique",
+            "dub",
+            "techno"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Apero sonore au LE MOLOTOV",
+        "date": "Le 24 janvier 2026",
+        "lieu": "LE MOLOTOV",
+        "description": "Apero sonore (techno / hardcore) 20h30 - tarif nc",
+        "start_date": "2026-01-24",
+        "end_date": "2026-01-24",
+        "tags": [
+            "dj set",
+            "musique électronique",
+            "techno",
+            "hardcore"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "There is no shame! à SING OR DIE",
+        "date": "Le 24 janvier 2026",
+        "lieu": "SING OR DIE KARAOKÉ",
+        "description": "There is no shame! (karaoke) 21h - 6€/3€",
+        "start_date": "2026-01-24",
+        "end_date": "2026-01-24",
+        "tags": [
+            "karaoké"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Jam jazz qui dérape à L'INTERMÉDIAIRE",
+        "date": "Le 27 janvier 2026",
+        "lieu": "L'INTERMÉDIAIRE",
+        "description": "Jam jazz qui dérape (jazz swing) 20h - entrée libre",
+        "start_date": "2026-01-27",
+        "end_date": "2026-01-27",
+        "tags": [
+            "jam",
+            "jazz",
+            "jazz swing"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Médiathèque - Fanzinothèque à DATA",
+        "date": "Le 28 janvier 2026",
+        "lieu": "DATA",
+        "description": "Médiathèque - Fanzinothèque 16/20h - entrée libre",
+        "start_date": "2026-01-28",
+        "end_date": "2026-01-28",
+        "tags": [
+            "exposition"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Tessina + Micro-ondes au LE MAKEDA",
+        "date": "Le 28 janvier 2026",
+        "lieu": "LE MAKEDA",
+        "description": "Tessina (rock céleste) + Micro-ondes (électro-punk) 19h00 - gratuit sur réservation",
+        "start_date": "2026-01-28",
+        "end_date": "2026-01-28",
+        "tags": [
+            "concert",
+            "rock",
+            "indie pop",
+            "electro",
+            "punk"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Le Shit Show à SING OR DIE",
+        "date": "Le 28 janvier 2026",
+        "lieu": "SING OR DIE KARAOKÉ",
+        "description": "Le Shit Show (cabaret trash queer et facétieux) 20h - tarif nc",
+        "start_date": "2026-01-28",
+        "end_date": "2026-01-28",
+        "tags": [
+            "spectacle",
+            "drag show"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Eisenhower + Big Slap à LEDA ATOMICA",
+        "date": "Le 29 janvier 2026",
+        "lieu": "LEDA ATOMICA MUSIQUE",
+        "description": "Eisenhower (rock indus) + Big Slap (punk rock) 19h - 7€",
+        "start_date": "2026-01-29",
+        "end_date": "2026-01-29",
+        "tags": [
+            "concert",
+            "rock",
+            "indus",
+            "punk rock"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Vava nd friends à L'INTERMÉDIAIRE",
+        "date": "Le 29 janvier 2026",
+        "lieu": "L'INTERMÉDIAIRE",
+        "description": "Vava nd friends (dj hip hop trap) 21h - 5€",
+        "start_date": "2026-01-29",
+        "end_date": "2026-01-29",
+        "tags": [
+            "dj set",
+            "hip-hop",
+            "rap"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Karaoke par Devin Kissay à SING OR DIE",
+        "date": "Le 29 janvier 2026",
+        "lieu": "SING OR DIE KARAOKÉ",
+        "description": "Karaoke par Devin Kissay 21h - 6€/3€",
+        "start_date": "2026-01-29",
+        "end_date": "2026-01-29",
+        "tags": [
+            "karaoké"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Grand Fleuve au LOLLIPOP",
+        "date": "Le 30 janvier 2026",
+        "lieu": "LOLLIPOP",
+        "description": "Grand Fleuve (chanson rock) 19h00 - entrée libre",
+        "start_date": "2026-01-30",
+        "end_date": "2026-01-30",
+        "tags": [
+            "concert",
+            "chanson française",
+            "rock"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Mental présent: Velleity + Margarite Marjorie + Solo Operator aux LES 9 SALOPARDS",
+        "date": "Le 30 janvier 2026",
+        "lieu": "LES 9 SALOPARDS",
+        "description": "Mental présent Velleity (synthes modulaires/hyper electro-acoustic) + Margarite Marjorie (experimen- tal/vocal loops) + Solo Operator (electro-acoustic/ saxophone) 20h00- prix libre",
+        "start_date": "2026-01-30",
+        "end_date": "2026-01-30",
+        "tags": [
+            "concert",
+            "musique électronique",
+            "experimental"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Quelque à DATA",
+        "date": "Le 30 janvier 2026",
+        "lieu": "DATA",
+        "description": "Quelque (clarinette expe) 19h - 3/9€",
+        "start_date": "2026-01-30",
+        "end_date": "2026-01-30",
+        "tags": [
+            "concert",
+            "experimental"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Sister Sludge + Harsh Love + Otherwhere + The Yellow Stones + JR Ente à LA MAISON HANTÉE",
+        "date": "Le 30 janvier 2026",
+        "lieu": "LA MAISON HANTÉE",
+        "description": "Sister Sludge + Harsh Love + Otherwhere (stoner) + The Yellow Stones (stoner psyché) + JR Ente (dj set) 20h - prix libre",
+        "start_date": "2026-01-30",
+        "end_date": "2026-01-30",
+        "tags": [
+            "concert",
+            "dj set",
+            "stoner",
+            "psyché"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Avalon bloom + Off center à L'INTERMÉDIAIRE",
+        "date": "Le 30 janvier 2026",
+        "lieu": "L'INTERMÉDIAIRE",
+        "description": "Avalon bloom (shoegaze) + Off center (rock alternatif) 21h - 5/7€",
+        "start_date": "2026-01-30",
+        "end_date": "2026-01-30",
+        "tags": [
+            "concert",
+            "shoegaze",
+            "rock alternatif"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Tutte Quante - Lise Massal à ZOUMAŤ",
+        "date": "Le 30 janvier 2026",
+        "lieu": "ZOUMAŤ",
+        "description": "Tutte Quante - Lise Massal (choeur de femmes) 20h30 entrée libre",
+        "start_date": "2026-01-30",
+        "end_date": "2026-01-30",
+        "tags": [
+            "concert",
+            "chanson"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Bad Frequencies + Elephant Green à Leda Atomica",
+        "date": "Le 30 janvier 2026",
+        "lieu": "LEDA ATOMICA MUSIQUE",
+        "description": "Bad Frequencies (rock) + Elephant Green (rock) 19h - 7€",
+        "start_date": "2026-01-30",
+        "end_date": "2026-01-30",
+        "tags": [
+            "concert",
+            "rock"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "0Comeups + Camille Soulat + 3Naïdes à L'EMBOBINEUSE",
+        "date": "Le 30 janvier 2026",
+        "lieu": "L'EMBOBINEUSE",
+        "description": "0Comeups (XP) + Camille Soulat (dj set) + 3Naïdes (dj set) 21h00-9€",
+        "start_date": "2026-01-30",
+        "end_date": "2026-01-30",
+        "tags": [
+            "dj set",
+            "experimental"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Cactus Box à HYPERION",
+        "date": "Le 30 janvier 2026",
+        "lieu": "HYPERION",
+        "description": "Cactus Box (hip-hop/groove) 20h30 entrée libre sur réservation",
+        "start_date": "2026-01-30",
+        "end_date": "2026-01-30",
+        "tags": [
+            "concert",
+            "hip-hop",
+            "groove"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "L'oreille concrète au CONSERVATOIRE PIERRE BARBIZET",
+        "date": "Le 30 janvier 2026",
+        "lieu": null,
+        "description": "L'oreille concrète (musique électroacoustique) 19h/00h - gratuit",
+        "start_date": "2026-01-30",
+        "end_date": "2026-01-30",
+        "tags": [
+            "concert",
+            "musique électronique"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Level Up au LE MOLOTOV",
+        "date": "Le 30 janvier 2026",
+        "lieu": "LE MOLOTOV",
+        "description": "Level Up (psytrance / hi tech/forest) Bonne Mine + Cust + Wild Track + Kinectaura 20h30 - 5€",
+        "start_date": "2026-01-30",
+        "end_date": "2026-01-30",
+        "tags": [
+            "dj set",
+            "psytrance",
+            "hi tech",
+            "forest"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Vv8 à LA MERVEILLEUSE",
+        "date": "Le 30 janvier 2026",
+        "lieu": "LA MERVEILLEUSE",
+        "description": "Vv8 (techno) 21h - prix libre",
+        "start_date": "2026-01-30",
+        "end_date": "2026-01-30",
+        "tags": [
+            "concert",
+            "techno"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Dj Straussy au LE MOUNGUY",
+        "date": "Le 30 janvier 2026",
+        "lieu": "LE MOUNGUY",
+        "description": "Dj Straussy (Amérique latine) 21h30 entrée libre",
+        "start_date": "2026-01-30",
+        "end_date": "2026-01-30",
+        "tags": [
+            "dj set",
+            "musique du monde"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "There is no shame! à SING OR DIE",
+        "date": "Le 30 janvier 2026",
+        "lieu": "SING OR DIE KARAOKÉ",
+        "description": "There is no shame! (karaoke) 21h - 6€/3€",
+        "start_date": "2026-01-30",
+        "end_date": "2026-01-30",
+        "tags": [
+            "karaoké"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Concert de soutien au Vortex au LE MOLOTOV",
+        "date": "Le 31 janvier 2026",
+        "lieu": "LE MOLOTOV",
+        "description": "Concert de soutien au Vortex Confetti Malaise (new wave / post punk) + Auto. (heavy post punk) + Le Bien (garage / pop ratée) + pliage du Vortex de février à partir de 18h30 20h30- 5€ ou plus si tu peux",
+        "start_date": "2026-01-31",
+        "end_date": "2026-01-31",
+        "tags": [
+            "concert",
+            "new wave",
+            "post-punk",
+            "garage rock",
+            "indie pop"
+        ],
+        "categorie": "Concert",
+        "lien": "",
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Ayatollah + Silver Gallery + Monastr à LA SALLE GUEULE",
+        "date": "Le 31 janvier 2026",
+        "lieu": "LA SALLE GUEULE",
+        "description": "Ayatollah (noise doom) + Silver Gallery (sludge doom) + Monastr (crust doom) 20h30-5€ si tu peux",
+        "start_date": "2026-01-31",
+        "end_date": "2026-01-31",
+        "tags": [
+            "concert",
+            "noise",
+            "doom",
+            "sludge"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Collective Girlxcott au LE RIDEAU",
+        "date": "Le 31 janvier 2026",
+        "lieu": "LE RIDEAU",
+        "description": "Collective Girlxcott Dans le cadre des fêtes interconnectées de la bd Prog à venir sur https://girlxcott.org/ 19h - prix libre",
+        "start_date": "2026-01-31",
+        "end_date": "2026-01-31",
+        "tags": [
+            "rencontre"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Jules Henriel + Maeve à LEDA ATOMICA",
+        "date": "Le 31 janvier 2026",
+        "lieu": "LEDA ATOMICA MUSIQUE",
+        "description": "Jules Henriel (indie folk) + Maeve (indie pop) 19h - 7€",
+        "start_date": "2026-01-31",
+        "end_date": "2026-01-31",
+        "tags": [
+            "concert",
+            "indie folk",
+            "indie pop"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Soutien à la legal team et aux incul- pé.e.s Eurolinks à LA DAR, CENTRE SOCIAL AUTOGÉRÉ",
+        "date": "Le 31 janvier 2026",
+        "lieu": "LA DAR, CENTRE SOCIAL AUTOGÉRÉ",
+        "description": "Soutien à la legal team et aux incul- pé.e.s Eurolinks:Animations + DJ sets + Mazar et soookr (Reggae to Dub) + Maïgosh DJ b2b Dj Noy (Regge- ton/hyperpo Perreo) + lady and the score (gender fuck) 20h - prix libre",
+        "start_date": "2026-01-31",
+        "end_date": "2026-01-31",
+        "tags": [
+            "dj set",
+            "reggae",
+            "dub",
+            "reggaeton"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Begge Fall au LE MOUNGUY",
+        "date": "Le 31 janvier 2026",
+        "lieu": "LE MOUNGUY",
+        "description": "Begge Fall (musique d'Afrique de l'Ouest) 21h30- entrée libre",
+        "start_date": "2026-01-31",
+        "end_date": "2026-01-31",
+        "tags": [
+            "concert",
+            "musique du monde",
+            "afrobeat"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Les Tikis + The Jana's + Dj Ber The Ber à L'INTERMÉDIAIRE",
+        "date": "Le 31 janvier 2026",
+        "lieu": "L'INTERMÉDIAIRE",
+        "description": "Les Tikis (northern soul) + The Jana's (garage rock & psyché soul) + Dj Ber The Ber 21h00-7€",
+        "start_date": "2026-01-31",
+        "end_date": "2026-01-31",
+        "tags": [
+            "concert",
+            "northern soul",
+            "garage rock",
+            "psyché",
+            "soul"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Balèti des Rails à ESPACE DES CHEMINOTS",
+        "date": "Le 31 janvier 2026",
+        "lieu": "ESPACE DES CHEMINOTS",
+        "description": "Balèti des Rails Prince Tatou & DJ Kayalik (Massilia sound system) 21h30 - prix libre",
+        "start_date": "2026-01-31",
+        "end_date": "2026-01-31",
+        "tags": [
+            "bal",
+            "reggae",
+            "dub"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "FireClub à LA MAISON HANTÉE",
+        "date": "Le 31 janvier 2026",
+        "lieu": "LA MAISON HANTÉE",
+        "description": "FireClub (rock) 20h - prix libre",
+        "start_date": "2026-01-31",
+        "end_date": "2026-01-31",
+        "tags": [
+            "concert",
+            "rock"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Le grand méchant loup au LE NON-LIEU",
+        "date": "Le 31 janvier 2026",
+        "lieu": "LE NON-LIEU",
+        "description": "Le grand méchant loup (fantaisie érotique / théâtre d'objets) 20h30-10€",
+        "start_date": "2026-01-31",
+        "end_date": "2026-01-31",
+        "tags": [
+            "théâtre"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Jam session brésilienne à ZOUMAŤ",
+        "date": "Le 31 janvier 2026",
+        "lieu": "ZOUMAŤ",
+        "description": "Jam session brésilienne 20h30 entrée libre",
+        "start_date": "2026-01-31",
+        "end_date": "2026-01-31",
+        "tags": [
+            "jam",
+            "musique du monde"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "Dave duke à LA MERVEILLEUSE",
+        "date": "Le 31 janvier 2026",
+        "lieu": "LA MERVEILLEUSE",
+        "description": "Dave duke (garage / 2step) 21h - prix libre",
+        "start_date": "2026-01-31",
+        "end_date": "2026-01-31",
+        "tags": [
+            "concert",
+            "garage rock",
+            "house"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    },
+    {
+        "titre": "There is no shame! à SING OR DIE",
+        "date": "Le 31 janvier 2026",
+        "lieu": "SING OR DIE KARAOKÉ",
+        "description": "There is no shame! (karaoke) 21h - 6€/3€",
+        "start_date": "2026-01-31",
+        "end_date": "2026-01-31",
+        "tags": [
+            "karaoké"
+        ],
+        "categorie": "Concert",
+        "lien": null,
+        "image_url": null,
+        "image_locale": null
+    }
+]

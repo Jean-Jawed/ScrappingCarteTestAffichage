@@ -1,0 +1,234 @@
+[
+    {
+        "nom_original": "LES 9 SALOPARDS",
+        "adresse_originale": "2 RUE CRUDÈRE 13006",
+        "adresse_complete": "2 RUE CRUDÈRE 13006",
+        "latitude": 43.29416502997997,
+        "longitude": 5.383693671745484,
+        "status": "OK"
+    },
+    {
+        "nom_original": "ATELIERS JEANNE BARRET",
+        "adresse_originale": "5 BD SÉVIGNÉ 13015",
+        "adresse_complete": "5 BD SÉVIGNÉ 13015",
+        "latitude": 43.321564338810596,
+        "longitude": 5.370090425971195,
+        "status": "OK"
+    },
+    {
+        "nom_original": "BRASSERIE COMMUNALE",
+        "adresse_originale": "57 COURS JULIEN 13005",
+        "adresse_complete": "57 COURS JULIEN 13005",
+        "latitude": 43.293720819192544,
+        "longitude": 5.383606224639792,
+        "status": "OK"
+    },
+    {
+        "nom_original": "CASA CONSOLAT",
+        "adresse_originale": "1 RUE CONSOLAT 13001",
+        "adresse_complete": "Casa Consolat, 1, Rue Consolat, Le Chapitre, Marseille 1er Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13001, France",
+        "latitude": 43.29961298938529,
+        "longitude": 5.386107439239789,
+        "status": "OK"
+    },
+    {
+        "nom_original": "CINÉBAR",
+        "adresse_originale": "11 RUE CURIOL 13001",
+        "adresse_complete": "11 RUE CURIOL 13001",
+        "latitude": 43.29816023499343,
+        "longitude": 5.384288396710023,
+        "status": "OK"
+    },
+    {
+        "nom_original": "LA DAR, CENTRE SOCIAL AUTOGÉRÉ",
+        "adresse_originale": "127 RUE D'AUBAGNE 13006",
+        "adresse_complete": "127 RUE D'AUBAGNE 13006",
+        "latitude": 43.29286025828806,
+        "longitude": 5.382808157032344,
+        "status": "OK"
+    },
+    {
+        "nom_original": "DATA",
+        "adresse_originale": "44 RUE DES BONS ENFANTS 13006",
+        "adresse_complete": "44 RUE DES BONS ENFANTS 13006",
+        "latitude": 43.29084774279012,
+        "longitude": 5.388301346179919,
+        "status": "OK"
+    },
+    {
+        "nom_original": "L'EMBOBINEUSE",
+        "adresse_originale": "11 BVD BOUÈS 13003",
+        "adresse_complete": "11 BVD BOUÈS 13003",
+        "latitude": 43.311237517335115,
+        "longitude": 5.383186692844422,
+        "status": "OK"
+    },
+    {
+        "nom_original": "ESPACE DES CHEMINOTS",
+        "adresse_originale": "13 RUE BÉNÉDIT 13001",
+        "adresse_complete": "13 RUE BÉNÉDIT 13001",
+        "latitude": 43.30662563792529,
+        "longitude": 5.3928499564275025,
+        "status": "OK"
+    },
+    {
+        "nom_original": "LE GOUFFRE",
+        "adresse_originale": "32 RUE ESTELLE 13006",
+        "adresse_complete": "32 RUE ESTELLE 13006",
+        "latitude": 43.29323662062672,
+        "longitude": 5.38161903711342,
+        "status": "OK"
+    },
+    {
+        "nom_original": "HYPERION",
+        "adresse_originale": "2BIS AV. DU MARÉCHAL FOCH 13004",
+        "adresse_complete": "2BIS AV. DU MARÉCHAL FOCH 13004",
+        "latitude": 43.302515439577256,
+        "longitude": 5.3967623680789885,
+        "status": "OK"
+    },
+    {
+        "nom_original": "L'INTERMÉDIAIRE",
+        "adresse_originale": "63 PLACE JEAN JAURÈS 13006",
+        "adresse_complete": "63 PLACE JEAN JAURÈS 13006",
+        "latitude": 43.294204774627616,
+        "longitude": 5.386721190204641,
+        "status": "OK"
+    },
+    {
+        "nom_original": "LEDA ATOMICA MUSIQUE",
+        "adresse_originale": "63 RUE ST PIERRE 13005",
+        "adresse_complete": "63 RUE ST PIERRE 13005",
+        "latitude": 43.29304774455143,
+        "longitude": 5.389696518371988,
+        "status": "OK"
+    },
+    {
+        "nom_original": "LOLLIPOP",
+        "adresse_originale": "2 BVD THÉODORE THURNER 13006",
+        "adresse_complete": "2 BVD THÉODORE THURNER 13006",
+        "latitude": 43.291245442814905,
+        "longitude": 5.383185114599755,
+        "status": "OK"
+    },
+    {
+        "nom_original": "LA MAISON HANTÉE",
+        "adresse_originale": "10 RUE VIAN 13006",
+        "adresse_complete": "10 RUE VIAN 13006",
+        "latitude": 43.29454422272652,
+        "longitude": 5.383769233529891,
+        "status": "OK"
+    },
+    {
+        "nom_original": "LE MAKEDA",
+        "adresse_originale": "103 RUE FERRARI 13005",
+        "adresse_complete": "103 RUE FERRARI 13005",
+        "latitude": 43.293191248646586,
+        "longitude": 5.391747535346641,
+        "status": "OK"
+    },
+    {
+        "nom_original": "LA MERVEILLEUSE",
+        "adresse_originale": "18 PL NOTRE-DAME-DU-MONT 13006",
+        "adresse_complete": "18 PL NOTRE-DAME-DU-MONT 13006",
+        "latitude": 43.29192772245016,
+        "longitude": 5.384023603692396,
+        "status": "OK"
+    },
+    {
+        "nom_original": "LE MOLOTOV",
+        "adresse_originale": "3 PLACE PAUL CÉZANNE 13006",
+        "adresse_complete": "Le Molotov, 3, Place Paul Cézanne, La Plaine, Marseille 6e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13006, France",
+        "latitude": 43.2927083,
+        "longitude": 5.3831674,
+        "status": "OK"
+    },
+    {
+        "nom_original": "LE MOUNGUY",
+        "adresse_originale": "10 RUE CONSOLAT 13001",
+        "adresse_complete": "10 RUE CONSOLAT 13001",
+        "latitude": 43.29951139197757,
+        "longitude": 5.3860126244480435,
+        "status": "OK"
+    },
+    {
+        "nom_original": "LE NON-LIEU",
+        "adresse_originale": "67 RUE DE LA PALUD 13006",
+        "adresse_complete": "67 RUE DE LA PALUD 13006",
+        "latitude": 43.29260845804289,
+        "longitude": 5.380388808013348,
+        "status": "OK"
+    },
+    {
+        "nom_original": "LA PLATEFORME",
+        "adresse_originale": "12 RUE URBAIN V 13002",
+        "adresse_complete": "La Plateforme_, 12, Rue Urbain V, Arenc, Marseille 2e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13002, France",
+        "latitude": 43.315291699441616,
+        "longitude": 5.367963195685133,
+        "status": "OK"
+    },
+    {
+        "nom_original": "LA SALLE GUEULE",
+        "adresse_originale": "8 RUE D'ITALIE 13006",
+        "adresse_complete": "8 RUE D'ITALIE 13006",
+        "latitude": 43.290451532838205,
+        "longitude": 5.381730524557052,
+        "status": "OK"
+    },
+    {
+        "nom_original": "Conservatoire Pierre Barbizet",
+        "adresse_originale": "2 Pl. Auguste et François Carli, 13001 Marseille",
+        "adresse_complete": "2 Pl. Auguste et François Carli, 13001 Marseille",
+        "latitude": 43.29578588915417,
+        "longitude": 5.383155219470633,
+        "status": "OK"
+    },
+    {
+        "nom_original": "OSTAU DAU PAÍS MARSELHÉS",
+        "adresse_originale": "18 Rue de l'Olivier, 13005 Marseille",
+        "adresse_complete": "Ostau dau País Marselhés, 18, Rue de l'Olivier, Le Camas, Marseille 5e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13005, France",
+        "latitude": 43.2944544,
+        "longitude": 5.387871,
+        "status": "OK"
+    },
+    {
+        "nom_original": "SING OR DIE KARAOKÉ",
+        "adresse_originale": "56 RUE LÉON BOURGEOIS 13001",
+        "adresse_complete": "Sing or die, 56, Rue Léon Bourgeois, Saint-Charles, Marseille 1er Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13001, France",
+        "latitude": 43.3017091,
+        "longitude": 5.3919902,
+        "status": "OK"
+    },
+    {
+        "nom_original": "SPAZIO",
+        "adresse_originale": "5 RUE JEAN DE BERNARDY 13001",
+        "adresse_complete": "5 RUE JEAN DE BERNARDY 13001",
+        "latitude": 43.30204337499128,
+        "longitude": 5.387963715983385,
+        "status": "OK"
+    },
+    {
+        "nom_original": "LE RIDEAU",
+        "adresse_originale": "17 PLACE PIERRE ROUX 13005",
+        "adresse_complete": "17 PLACE PIERRE ROUX 13005",
+        "latitude": 43.28585199113194,
+        "longitude": 5.39479428455487,
+        "status": "OK"
+    },
+    {
+        "nom_original": "VIDÉODROME 2",
+        "adresse_originale": "49 COURS JULIEN 13005",
+        "adresse_complete": "49 COURS JULIEN 13005",
+        "latitude": 43.29396557478693,
+        "longitude": 5.383508709189189,
+        "status": "OK"
+    },
+    {
+        "nom_original": "ZOUMAŤ",
+        "adresse_originale": "7 COURS GOUFFÉ 13006",
+        "adresse_complete": "7 COURS GOUFFÉ 13006",
+        "latitude": 43.286234301210534,
+        "longitude": 5.3865998135013315,
+        "status": "OK"
+    }
+]
