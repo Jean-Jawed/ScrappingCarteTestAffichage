@@ -40,14 +40,26 @@ PROJET : CENTRALISATION ÉVÉNEMENTS CULTURELS MARSEILLE
      État : À FAIRE - Test RA très compliqué
 
 04 | FETCHING (Salles)
-     Sources : Molotov, Espace Julien.
+     - Molotov
+     - Espace Julien
+     - Latte Club Events
+     - https://lameson.com/
+     - https://club27.fr/programmation/
+     - https://www.le-non-lieu.fr/
      Méthode : Extraction ciblée des calendriers web.
      État : Espace Ju ok - Molotov à faire
 
 05 | AUTOMATISATION RÉSEAUX SOCIAUX
      Sources : Instagram (Mûrisserie, etc.), Facebook (Intermédiaire).
      Méthode : Utilisation d'extracteurs tiers (Apify, Lobstr, Gridpanel).
-     État : Apify Murisserie-ChatPerché-BrassComm-Inter-ViceVersa ok
+https://www.instagram.com/l_intermediaire/
+https://www.instagram.com/la_murisserie_/
+https://www.instagram.com/chatperche_bar/
+https://www.instagram.com/vice.versa.marseille/
+https://www.instagram.com/brasseriecommunale/
+https://www.instagram.com/blummarseille/
+https://www.instagram.com/massilia.pub/
+https://www.instagram.com/yuzu_record_bar/
 
 --- 3. NOTES IMPORTANTES (DÉCEMBRE 2025) ---
 
